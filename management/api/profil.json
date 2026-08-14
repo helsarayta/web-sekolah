@@ -1,0 +1,64 @@
+{
+  "nama": "SMK Negeri 10 Semarang",
+  "branding": "SMKN 10 SEMARANG OFFICIAL",
+  "tagline": "Sekolah Maritim & Teknologi Berkarakter",
+  "npsn": "20328947",
+  "akreditasi": "B",
+  "berdiri": "1954-09-18",
+  "namaAwal": "STM Perkapalan",
+  "motto": "Membentuk generasi yang cerdas dengan akhlak berkelas.",
+  "visi": "Menghebatkan SMKN 10 Semarang melalui Tinggal Landas Pembangunan Sekolah secara Terukur Berbasis Literasi dan Digitalisasi.",
+  "misi": [
+    "Meningkatkan literasi siswa dan guru melalui program pembelajaran yang mendorong minat baca",
+    "Menerapkan pendekatan digital dalam pembelajaran dengan integrasi teknologi",
+    "Mengembangkan kurikulum berbasis literasi dan digitalisasi",
+    "Meningkatkan kompetensi guru dalam metode pembelajaran inovatif",
+    "Membangun kemitraan dengan industri untuk memperkuat relevansi pendidikan",
+    "Melakukan evaluasi berbasis data untuk penyusunan rencana perbaikan sekolah"
+  ],
+  "tujuan": [
+    "Meningkatkan kualitas pembelajaran berbasis literasi dan teknologi digital",
+    "Mendorong kreativitas dan inovasi dalam proses pendidikan",
+    "Membangun budaya literasi dan digital di sekolah dan masyarakat",
+    "Meningkatkan kualitas sumber daya manusia sekolah",
+    "Memperkuat kerjasama dengan industri dan dunia usaha",
+    "Menumbuhkan kesadaran berwawasan lingkungan",
+    "Mengukir prestasi di bidang akademik dan non-akademik",
+    "Memaksimalkan penggunaan teknologi dalam pengelolaan sekolah",
+    "Mengembangkan lulusan berkarakter dan berdaya saing global",
+    "Menjadi rujukan pendidikan vokasi berbasis literasi dan digitalisasi"
+  ],
+  "sejarahSingkat": "Didirikan 18 September 1954 dengan nama STM Perkapalan, hasil penggabungan STM Negeri 2 dan STM Negeri 6, untuk memenuhi kebutuhan tenaga terampil sektor maritim dan perkapalan. Kini bertransformasi menjadi SMK Negeri 10 Semarang dengan 10 kompetensi keahlian, dengan identitas maritim yang tetap menjadi ciri khas.",
+  "kepalaSekolah": "Albasori, S.Pd.",
+  "alamat": {
+    "jalan": "Jl. Kokrosono No. 75",
+    "kelurahan": "Panggung Kidul",
+    "kecamatan": "Semarang Utara",
+    "kota": "Kota Semarang",
+    "provinsi": "Jawa Tengah"
+  },
+  "kontak": {
+    "telepon": "(024) 3515701",
+    "whatsapp": "+6281226907008",
+    "email": "smk10smg@yahoo.co.id",
+    "website": "https://smk10semarang.sch.id"
+  },
+  "medsos": {
+    "instagram": "@smkn10semarang",
+    "youtube": "@VHS10TV",
+    "facebook": "Grup SMKN 10 Semarang"
+  },
+  "statistik": {
+    "tahunBerdiri": 1954,
+    "jumlahJurusan": 10,
+    "luasLahanM2": 30000,
+    "jumlahMitraIndustri": 25,
+    "persenLulusanTersalurkan": 87
+  },
+  "fasilitas": [
+    "Simulator Kapal Laut",
+    "Bengkel Otomotif (TKRO)",
+    "Perpustakaan Digital",
+    "Internet Fiber Optic Dedicated"
+  ]
+}

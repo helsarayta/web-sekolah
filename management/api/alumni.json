@@ -1,0 +1,58 @@
+[
+  {
+    "_catatan": "SEMUA DATA DI FILE INI FIKTIF — ganti dengan alumni riil beserta izin penggunaan foto/nama",
+    "id": 1,
+    "nama": "Bagus Saputra",
+    "jurusan": "nautika-kapal-niaga",
+    "tahunLulus": 2023,
+    "jenis": "kerja",
+    "penempatan": "Mualim III — kapal niaga rute Asia Tenggara",
+    "testimoni": "Simulator kapal di sekolah membuat saya percaya diri saat pertama kali dinas jaga sungguhan. Terima kasih SMKN 10!",
+    "foto": "/assets/img/placeholder/alumni-1.jpg",
+    "unggulan": true
+  },
+  {
+    "id": 2,
+    "nama": "Siti Rahmawati",
+    "jurusan": "rekayasa-perangkat-lunak-game",
+    "tahunLulus": 2024,
+    "jenis": "kuliah",
+    "penempatan": "Mahasiswa Informatika — perguruan tinggi negeri di Semarang",
+    "testimoni": "Dasar pemrograman dari RPLG membuat kuliah semester awal terasa seperti pengulangan. Bekalnya benar-benar terpakai.",
+    "foto": "/assets/img/placeholder/alumni-2.jpg",
+    "unggulan": true
+  },
+  {
+    "id": 3,
+    "nama": "Andi Kurniawan",
+    "jurusan": "teknik-pengelasan-fabrikasi-logam",
+    "tahunLulus": 2023,
+    "jenis": "kerja",
+    "penempatan": "Welder bersertifikat — perusahaan fabrikasi baja di Kendal",
+    "testimoni": "Sertifikat las dari sekolah jadi tiket masuk kerja bahkan sebelum ijazah keluar.",
+    "foto": "/assets/img/placeholder/alumni-3.jpg",
+    "unggulan": true
+  },
+  {
+    "id": 4,
+    "nama": "Dewi Lestari",
+    "jurusan": "manajemen-logistik",
+    "tahunLulus": 2025,
+    "jenis": "kerja",
+    "penempatan": "Staf gudang — perusahaan distribusi di kawasan industri Semarang",
+    "testimoni": "PKL di perusahaan logistik langsung berlanjut jadi kontrak kerja setelah lulus.",
+    "foto": "/assets/img/placeholder/alumni-4.jpg",
+    "unggulan": false
+  },
+  {
+    "id": 5,
+    "nama": "Fajar Hidayat",
+    "jurusan": "teknik-sepeda-motor",
+    "tahunLulus": 2024,
+    "jenis": "wirausaha",
+    "penempatan": "Pemilik bengkel motor di Semarang Utara",
+    "testimoni": "Ilmu servis injeksi dari sekolah jadi modal buka bengkel sendiri di usia 19 tahun.",
+    "foto": "/assets/img/placeholder/alumni-5.jpg",
+    "unggulan": false
+  }
+]

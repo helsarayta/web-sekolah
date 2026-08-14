@@ -1,0 +1,43 @@
+[
+  {
+    "_catatan": "SEMUA LOWONGAN DI FILE INI FIKTIF — ganti dengan lowongan riil dari mitra BKK",
+    "id": 1,
+    "posisi": "Welder SMAW/GMAW",
+    "perusahaan": "PT Fabrikasi Logam Mandiri",
+    "lokasi": "Kawasan Industri Terboyo, Semarang",
+    "jurusanTarget": ["teknik-pengelasan-fabrikasi-logam", "konstruksi-kapal-baja"],
+    "deadline": "2026-09-30",
+    "deskripsi": "Dibutuhkan lulusan baru dengan sertifikat las. Fasilitas: gaji UMK+, BPJS, mess karyawan.",
+    "kontak": "bkk@smkn10semarang.sch.id"
+  },
+  {
+    "id": 2,
+    "posisi": "Mekanik Junior",
+    "perusahaan": "CV Otomotif Prima Motor",
+    "lokasi": "Semarang Barat",
+    "jurusanTarget": ["teknik-kendaraan-ringan", "teknik-sepeda-motor"],
+    "deadline": "2026-09-15",
+    "deskripsi": "Terbuka untuk lulusan 2025–2026. Ada jenjang pelatihan teknisi bersertifikat.",
+    "kontak": "bkk@smkn10semarang.sch.id"
+  },
+  {
+    "id": 3,
+    "posisi": "Admin Gudang",
+    "perusahaan": "PT Logistik Cepat Sentosa",
+    "lokasi": "Kawasan Industri Candi, Semarang",
+    "jurusanTarget": ["manajemen-logistik"],
+    "deadline": "2026-08-31",
+    "deskripsi": "Menguasai komputer dasar dan teliti. Diutamakan yang pernah PKL di bidang pergudangan.",
+    "kontak": "bkk@smkn10semarang.sch.id"
+  },
+  {
+    "id": 4,
+    "posisi": "Junior Programmer",
+    "perusahaan": "PT Kreasi Digital Semarang",
+    "lokasi": "Semarang Tengah (hybrid)",
+    "jurusanTarget": ["rekayasa-perangkat-lunak-game"],
+    "deadline": "2026-10-15",
+    "deskripsi": "Portofolio game/website menjadi nilai plus. Terbuka magang berbayar untuk siswa kelas XII.",
+    "kontak": "bkk@smkn10semarang.sch.id"
+  }
+]

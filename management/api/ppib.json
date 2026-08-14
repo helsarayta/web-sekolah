@@ -1,0 +1,47 @@
+{
+  "_catatan": "DATA CONTOH FIKTIF — ganti dengan jadwal & kuota resmi sebelum publikasi. Situs resmi sekolah menyebut modul ini 'SPMB' (sebelumnya PPDB); brief lomba menyebut 'PPIB' — label menu memakai SPMB, route tetap /ppib",
+  "namaMenu": "SPMB",
+  "tahunAjaran": "2027/2028",
+  "status": "dibuka",
+  "alur": [
+    { "urutan": 1, "judul": "Pendaftaran Online", "deskripsi": "Isi formulir pendaftaran melalui website atau datang langsung ke sekolah." },
+    { "urutan": 2, "judul": "Verifikasi Berkas", "deskripsi": "Unggah/serahkan berkas: ijazah/SKL, kartu keluarga, akta kelahiran, pas foto." },
+    { "urutan": 3, "judul": "Tes Kesehatan & Minat", "deskripsi": "Pemeriksaan kesehatan dasar (khusus jurusan maritim: tes buta warna & fisik) dan wawancara minat jurusan." },
+    { "urutan": 4, "judul": "Pengumuman", "deskripsi": "Hasil seleksi diumumkan melalui website dan papan pengumuman sekolah." },
+    { "urutan": 5, "judul": "Daftar Ulang", "deskripsi": "Calon siswa yang diterima melakukan daftar ulang sesuai jadwal." }
+  ],
+  "syarat": [
+    "Lulusan SMP/MTs atau sederajat",
+    "Usia maksimal 21 tahun saat mendaftar",
+    "Sehat jasmani dan rohani",
+    "Tidak buta warna (khusus jurusan Maritim, Otomotif, dan TPFL)",
+    "Fotokopi ijazah/SKL yang dilegalisir",
+    "Fotokopi kartu keluarga dan akta kelahiran",
+    "Pas foto 3x4 sebanyak 4 lembar"
+  ],
+  "jadwal": [
+    { "kegiatan": "Pendaftaran gelombang 1", "mulai": "2027-05-01", "selesai": "2027-05-31" },
+    { "kegiatan": "Pendaftaran gelombang 2", "mulai": "2027-06-01", "selesai": "2027-06-20" },
+    { "kegiatan": "Tes kesehatan & wawancara", "mulai": "2027-06-22", "selesai": "2027-06-25" },
+    { "kegiatan": "Pengumuman hasil seleksi", "mulai": "2027-06-28", "selesai": "2027-06-28" },
+    { "kegiatan": "Daftar ulang", "mulai": "2027-06-29", "selesai": "2027-07-03" }
+  ],
+  "kuota": [
+    { "jurusan": "nautika-kapal-niaga", "kuota": 72 },
+    { "jurusan": "konstruksi-kapal-baja", "kuota": 36 },
+    { "jurusan": "teknik-pemesinan-kapal", "kuota": 36 },
+    { "jurusan": "teknik-pengelasan-fabrikasi-logam", "kuota": 72 },
+    { "jurusan": "teknik-kendaraan-ringan", "kuota": 108 },
+    { "jurusan": "teknik-sepeda-motor", "kuota": 72 },
+    { "jurusan": "perawatan-bodi-otomotif", "kuota": 36 },
+    { "jurusan": "rekayasa-perangkat-lunak-game", "kuota": 72 },
+    { "jurusan": "manajemen-logistik", "kuota": 72 },
+    { "jurusan": "bisnis-digital", "kuota": 36 }
+  ],
+  "faq": [
+    { "tanya": "Apakah pendaftaran dipungut biaya?", "jawab": "Tidak, seluruh proses pendaftaran gratis karena SMKN 10 Semarang adalah sekolah negeri." },
+    { "tanya": "Apakah bisa memilih lebih dari satu jurusan?", "jawab": "Ya, calon siswa dapat memilih pilihan pertama dan kedua saat mendaftar." },
+    { "tanya": "Apakah ada asrama?", "jawab": "Silakan hubungi WhatsApp sekolah untuk informasi terbaru mengenai fasilitas asrama." },
+    { "tanya": "Jurusan apa yang wajib tes fisik?", "jawab": "Jurusan rumpun maritim (NKN, KKB, TPK) memerlukan tes kesehatan fisik dan bebas buta warna." }
+  ]
+}

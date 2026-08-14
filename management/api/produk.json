@@ -1,0 +1,63 @@
+[
+  {
+    "_catatan": "SEMUA PRODUK & HARGA DI FILE INI FIKTIF — ganti dengan produk BLUD riil",
+    "id": 1,
+    "nama": "Jasa Servis Sepeda Motor",
+    "kategori": "jasa",
+    "jurusan": "teknik-sepeda-motor",
+    "harga": 35000,
+    "satuan": "mulai dari / servis",
+    "deskripsi": "Servis berkala sepeda motor oleh siswa di bawah pengawasan instruktur bersertifikat. Kualitas bengkel resmi, harga pelajar.",
+    "foto": "/assets/img/placeholder/produk-1.jpg"
+  },
+  {
+    "id": 2,
+    "nama": "Pagar & Kanopi Las Custom",
+    "kategori": "produk",
+    "jurusan": "teknik-pengelasan-fabrikasi-logam",
+    "harga": 450000,
+    "satuan": "mulai dari / meter",
+    "deskripsi": "Pagar, kanopi, dan teralis custom hasil teaching factory jurusan pengelasan. Pengerjaan rapi, garansi konstruksi.",
+    "foto": "/assets/img/placeholder/produk-2.jpg"
+  },
+  {
+    "id": 3,
+    "nama": "Jasa Cat & Poles Bodi Mobil",
+    "kategori": "jasa",
+    "jurusan": "perawatan-bodi-otomotif",
+    "harga": 250000,
+    "satuan": "mulai dari / panel",
+    "deskripsi": "Perbaikan penyok ringan, cat ulang panel, dan poles kilap dengan peralatan standar industri.",
+    "foto": "/assets/img/placeholder/produk-3.jpg"
+  },
+  {
+    "id": 4,
+    "nama": "Miniatur Kapal Kayu & Resin",
+    "kategori": "produk",
+    "jurusan": "konstruksi-kapal-baja",
+    "harga": 150000,
+    "satuan": "per unit",
+    "deskripsi": "Miniatur kapal karya siswa — cocok untuk suvenir, hadiah, dan pajangan kantor. Bisa custom nama kapal.",
+    "foto": "/assets/img/placeholder/produk-4.jpg"
+  },
+  {
+    "id": 5,
+    "nama": "Jasa Pembuatan Website UMKM",
+    "kategori": "jasa",
+    "jurusan": "rekayasa-perangkat-lunak-game",
+    "harga": 500000,
+    "satuan": "mulai dari / paket",
+    "deskripsi": "Website profil usaha untuk UMKM sekitar, dikerjakan siswa RPLG dengan pendampingan guru produktif.",
+    "foto": "/assets/img/placeholder/produk-5.jpg"
+  },
+  {
+    "id": 6,
+    "nama": "Paket Foto Produk & Konten Promosi",
+    "kategori": "jasa",
+    "jurusan": "bisnis-digital",
+    "harga": 200000,
+    "satuan": "per paket",
+    "deskripsi": "Foto produk, desain feed, dan caption promosi untuk toko online — digarap siswa Bisnis Digital.",
+    "foto": "/assets/img/placeholder/produk-6.jpg"
+  }
+]

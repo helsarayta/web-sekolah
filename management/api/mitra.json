@@ -1,0 +1,45 @@
+[
+  {
+    "_catatan": "SEMUA NAMA PERUSAHAAN DI FILE INI FIKTIF — ganti dengan mitra riil sekolah beserta izin pemakaian logo",
+    "id": 1,
+    "nama": "PT Samudra Baja Nusantara",
+    "bidang": "Galangan & konstruksi kapal",
+    "jenis": ["pkl", "rekrutmen"],
+    "logo": "/assets/img/placeholder/mitra-1.png"
+  },
+  {
+    "id": 2,
+    "nama": "PT Pelayaran Jaya Bahari",
+    "bidang": "Pelayaran niaga",
+    "jenis": ["rekrutmen"],
+    "logo": "/assets/img/placeholder/mitra-2.png"
+  },
+  {
+    "id": 3,
+    "nama": "CV Otomotif Prima Motor",
+    "bidang": "Bengkel resmi kendaraan",
+    "jenis": ["pkl", "rekrutmen"],
+    "logo": "/assets/img/placeholder/mitra-3.png"
+  },
+  {
+    "id": 4,
+    "nama": "PT Logistik Cepat Sentosa",
+    "bidang": "Distribusi & pergudangan",
+    "jenis": ["pkl"],
+    "logo": "/assets/img/placeholder/mitra-4.png"
+  },
+  {
+    "id": 5,
+    "nama": "PT Kreasi Digital Semarang",
+    "bidang": "Software house & studio game",
+    "jenis": ["pkl", "rekrutmen"],
+    "logo": "/assets/img/placeholder/mitra-5.png"
+  },
+  {
+    "id": 6,
+    "nama": "PT Fabrikasi Logam Mandiri",
+    "bidang": "Fabrikasi & pengelasan",
+    "jenis": ["pkl", "rekrutmen", "blud"],
+    "logo": "/assets/img/placeholder/mitra-6.png"
+  }
+]

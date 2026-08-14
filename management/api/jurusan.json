@@ -1,0 +1,113 @@
+[
+  {
+    "slug": "nautika-kapal-niaga",
+    "nama": "Nautika Kapal Niaga",
+    "singkatan": "NKN",
+    "rumpun": "Maritim",
+    "unggulan": true,
+    "deskripsi": "Mendidik calon perwira kapal niaga yang menguasai navigasi, olah gerak kapal, dan keselamatan pelayaran sesuai standar internasional. Didukung fasilitas Simulator Kapal Laut.",
+    "kompetensi": ["Navigasi dan olah gerak kapal", "Dinas jaga pelayaran", "Keselamatan dan keamanan maritim (BST)", "Komunikasi pelayaran"],
+    "prospek": ["Perwira/mualim kapal niaga", "Awak kapal domestik & internasional", "Kepelabuhanan dan logistik maritim", "Akademi/Politeknik Ilmu Pelayaran"],
+    "gambar": "/assets/img/placeholder/jurusan-nkn.jpg"
+  },
+  {
+    "slug": "konstruksi-kapal-baja",
+    "nama": "Konstruksi Kapal Baja",
+    "singkatan": "KKB",
+    "rumpun": "Maritim",
+    "unggulan": true,
+    "deskripsi": "Mempelajari perancangan, pembangunan, dan perbaikan badan kapal baja — dari membaca gambar konstruksi hingga fabrikasi dan perakitan di galangan.",
+    "kompetensi": ["Gambar konstruksi kapal", "Fabrikasi dan perakitan badan kapal", "Pengelasan konstruksi", "Perawatan dan reparasi kapal"],
+    "prospek": ["Teknisi galangan kapal", "Welder/fabricator industri maritim", "Quality control konstruksi", "Teknik perkapalan (kuliah)"],
+    "gambar": "/assets/img/placeholder/jurusan-kkb.jpg"
+  },
+  {
+    "slug": "teknik-pemesinan-kapal",
+    "nama": "Teknik Pemesinan Kapal",
+    "singkatan": "TPK",
+    "rumpun": "Maritim",
+    "unggulan": true,
+    "deskripsi": "Fokus pada mesin penggerak kapal: pemasangan, pengoperasian, perawatan, dan perbaikan mesin kapal beserta sistem pendukungnya.",
+    "kompetensi": ["Mesin diesel kapal", "Sistem propulsi dan poros", "Pemesinan bubut dan frais", "Perawatan permesinan bantu"],
+    "prospek": ["Teknisi mesin kapal (oiler/engineer)", "Teknisi industri permesinan", "Galangan dan dok kapal", "Politeknik maritim"],
+    "gambar": "/assets/img/placeholder/jurusan-tpk.jpg"
+  },
+  {
+    "slug": "teknik-pengelasan-fabrikasi-logam",
+    "nama": "Teknik Pengelasan dan Fabrikasi Logam",
+    "singkatan": "TPFL",
+    "rumpun": "Manufaktur",
+    "unggulan": false,
+    "deskripsi": "Menguasai berbagai teknik pengelasan (SMAW, GMAW, GTAW) dan fabrikasi logam untuk kebutuhan industri manufaktur, konstruksi, dan maritim.",
+    "kompetensi": ["Pengelasan SMAW/GMAW/GTAW", "Membaca gambar teknik", "Fabrikasi pelat dan pipa", "Pemeriksaan hasil las"],
+    "prospek": ["Welder bersertifikat industri", "Fabricator konstruksi baja", "Wirausaha bengkel las", "Inspektur las (jenjang lanjut)"],
+    "gambar": "/assets/img/placeholder/jurusan-tpfl.jpg"
+  },
+  {
+    "slug": "teknik-kendaraan-ringan",
+    "nama": "Teknik Kendaraan Ringan",
+    "singkatan": "TKR",
+    "rumpun": "Otomotif",
+    "unggulan": false,
+    "deskripsi": "Mempelajari perawatan dan perbaikan mobil: mesin, sasis, pemindah tenaga, hingga sistem kelistrikan dan teknologi injeksi modern.",
+    "kompetensi": ["Tune-up dan overhaul mesin", "Sistem rem, suspensi, kemudi", "Kelistrikan bodi dan mesin", "Diagnosis dengan scan tool"],
+    "prospek": ["Mekanik bengkel resmi/umum", "Teknisi perusahaan otomotif", "Wirausaha bengkel mobil", "Teknik mesin/otomotif (kuliah)"],
+    "gambar": "/assets/img/placeholder/jurusan-tkr.jpg"
+  },
+  {
+    "slug": "teknik-sepeda-motor",
+    "nama": "Teknik Sepeda Motor",
+    "singkatan": "TBSM",
+    "rumpun": "Otomotif",
+    "unggulan": false,
+    "deskripsi": "Fokus pada perawatan dan perbaikan sepeda motor konvensional maupun injeksi, termasuk dasar sepeda motor listrik.",
+    "kompetensi": ["Servis berkala sepeda motor", "Sistem injeksi (FI)", "Kelistrikan sepeda motor", "Dasar motor listrik"],
+    "prospek": ["Mekanik AHASS/bengkel resmi", "Teknisi motor listrik", "Wirausaha bengkel motor", "Instruktur otomotif"],
+    "gambar": "/assets/img/placeholder/jurusan-tbsm.jpg"
+  },
+  {
+    "slug": "perawatan-bodi-otomotif",
+    "nama": "Perawatan Bodi Otomotif",
+    "singkatan": "PBO",
+    "rumpun": "Otomotif",
+    "unggulan": false,
+    "deskripsi": "Keahlian perbaikan dan pengecatan bodi kendaraan: las bodi, pendempulan, pengecatan oven, hingga detailing dan estimasi biaya perbaikan.",
+    "kompetensi": ["Perbaikan panel bodi", "Persiapan permukaan dan pendempulan", "Pengecatan dan pemolesan", "Detailing kendaraan"],
+    "prospek": ["Teknisi body repair bengkel resmi", "Painter otomotif", "Wirausaha cat dan detailing", "Estimator asuransi kendaraan"],
+    "gambar": "/assets/img/placeholder/jurusan-pbo.jpg"
+  },
+  {
+    "slug": "rekayasa-perangkat-lunak-game",
+    "nama": "Rekayasa Perangkat Lunak Game",
+    "singkatan": "RPLG",
+    "rumpun": "Teknologi & Bisnis",
+    "unggulan": false,
+    "deskripsi": "Belajar pemrograman, pengembangan aplikasi, dan pembuatan game — dari desain, koding, hingga publikasi. Bekal karier di industri kreatif digital.",
+    "kompetensi": ["Pemrograman dasar & web", "Game engine (Unity/Godot)", "Desain aset dan UI game", "Basis data dan publikasi aplikasi"],
+    "prospek": ["Game developer", "Web/software developer", "Wirausaha studio kreatif", "Informatika (kuliah)"],
+    "gambar": "/assets/img/placeholder/jurusan-rplg.jpg"
+  },
+  {
+    "slug": "manajemen-logistik",
+    "nama": "Manajemen Logistik",
+    "singkatan": "MANLOG",
+    "rumpun": "Teknologi & Bisnis",
+    "unggulan": false,
+    "deskripsi": "Mempelajari pengelolaan rantai pasok: pergudangan, distribusi, administrasi ekspor-impor, dan sistem informasi logistik — selaras dengan posisi Semarang sebagai kota pelabuhan.",
+    "kompetensi": ["Administrasi pergudangan", "Distribusi dan transportasi", "Dokumen ekspor-impor", "Sistem informasi logistik"],
+    "prospek": ["Staf logistik/warehouse", "Admin ekspor-impor", "Operator kepelabuhanan", "Manajemen logistik (kuliah)"],
+    "gambar": "/assets/img/placeholder/jurusan-manlog.jpg"
+  },
+  {
+    "slug": "bisnis-digital",
+    "nama": "Bisnis Digital",
+    "singkatan": "BD",
+    "rumpun": "Teknologi & Bisnis",
+    "unggulan": false,
+    "baru": true,
+    "deskripsi": "Jurusan terbaru: menguasai pemasaran digital, e-commerce, pembuatan konten, dan analisis data bisnis untuk era ekonomi digital.",
+    "kompetensi": ["Digital marketing & media sosial", "Pengelolaan toko online", "Content creation", "Analisis data penjualan"],
+    "prospek": ["Digital marketer", "Pengelola e-commerce", "Content creator", "Wirausaha digital"],
+    "gambar": "/assets/img/placeholder/jurusan-bd.jpg"
+  }
+]
