@@ -27,131 +27,10 @@
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
   <!-- Sprite ikon — satu gaya garis, dipakai di seluruh halaman -->
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <defs>
-      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.13.96.36 1.9.7 2.8a2 2 0 0 1-.45 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.27a2 2 0 0 1 2.1-.45c.9.34 1.84.57 2.8.7A2 2 0 0 1 22 16.9z"/></symbol>
-      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
-      <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><path d="M12 8v13M5 12H2a10 10 0 0 0 20 0h-3"/></symbol>
-      <symbol id="i-ship" viewBox="0 0 24 24"><path d="M4 15l8-3 8 3-1.8 4.5a1 1 0 0 1-.93.5H6.7a1 1 0 0 1-.92-.5L4 15z"/><path d="M12 12V4m0 0 4 2.5L12 9"/></symbol>
-      <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9 7 7m10 10 2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></symbol>
-      <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12 22c4.2 0 7-2.8 7-6.8 0-3.7-2.6-5.7-3.8-8.5-1.9 1.6-2.4 3.6-2.4 3.6S11.6 7 8.8 5C8.8 9 5 10.8 5 15.2c0 4 2.8 6.8 7 6.8z"/></symbol>
-      <symbol id="i-car" viewBox="0 0 24 24"><path d="M3 16v-5l2.4-4.2A2 2 0 0 1 7.1 6h6.3a2 2 0 0 1 1.6.8L18 11h1a2 2 0 0 1 2 2v3h-2.2"/><circle cx="7.5" cy="16.5" r="2"/><circle cx="16.5" cy="16.5" r="2"/><path d="M9.5 16.5h5"/></symbol>
-      <symbol id="i-moto" viewBox="0 0 24 24"><circle cx="5.5" cy="16.5" r="3"/><circle cx="18.5" cy="16.5" r="3"/><path d="M5.5 16.5h5l3.5-6h3M10 7h4l1.5 3.5"/></symbol>
-      <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
-      <symbol id="i-gamepad" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="11" rx="4"/><path d="M6.5 12.5h4m-2-2v4"/><path d="M15.5 11.5h.01M18 13.5h.01" stroke-width="2.6"/></symbol>
-      <symbol id="i-box" viewBox="0 0 24 24"><path d="M21 8 12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 21v-8"/></symbol>
-      <symbol id="i-trend" viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></symbol>
-      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.6-.3-3.8-.9L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5z"/></symbol>
-      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
-      <symbol id="i-send" viewBox="0 0 24 24"><path d="M22 2 11 13M22 2l-7 20-4-9-9-4 20-7z"/></symbol>
-      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
-      <symbol id="i-caret" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
-    </defs>
-  </svg>
+  <div data-component="sprite"></div>
 
   <!-- ═══════════ NAVBAR ═══════════ -->
-  <header class="navbar" id="navbar">
-    <div class="container navbar__inner">
-      <a href="#" class="navbar__brand">
-        <span class="navbar__logo" aria-hidden="true">
-          <svg class="ic" style="width:24px;height:24px"><use href="#i-anchor"/></svg>
-        </span>
-        <span class="navbar__name">
-          <strong>SMKN 10 SEMARANG</strong>
-          <small>OFFICIAL</small>
-        </span>
-      </a>
-
-      <nav class="navbar__menu" id="navMenu" aria-label="Menu utama">
-        <a href="#beranda" class="nav-link is-active">Beranda</a>
-
-        <div class="nav-item">
-          <a href="#profil" class="nav-link nav-link--parent">Profil <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#profil">Sejarah</a>
-            <a href="#profil">Visi, Misi &amp; Tujuan</a>
-            <a href="#" data-soon>Struktur Organisasi</a>
-          </div>
-        </div>
-
-        <a href="#" class="nav-link" data-soon>Berita</a>
-
-        <div class="nav-item">
-          <a href="#" class="nav-link nav-link--parent" data-soon>Kegiatan <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#" data-soon>Agenda</a>
-            <a href="#pengumuman">Pengumuman</a>
-            <a href="#" data-soon>Kesiswaan</a>
-            <a href="#" data-soon>Komunitas Belajar</a>
-            <a href="#" data-soon>Parenting</a>
-            <a href="#" data-soon>Kerohanian</a>
-            <a href="#" data-soon>Laporan BOS</a>
-          </div>
-        </div>
-
-        <div class="nav-item">
-          <a href="#blud" class="nav-link nav-link--parent">Teaching Factory <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#blud">Produk &amp; Jasa</a>
-            <a href="#" data-soon>Divisi</a>
-            <a href="#" data-soon>MOU Industri</a>
-            <a href="#" data-soon>Berita Tefa</a>
-          </div>
-        </div>
-
-        <div class="nav-item">
-          <a href="#prestasi" class="nav-link nav-link--parent">Prestasi <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#prestasi">Prestasi Sekolah</a>
-            <a href="#alumni">Cerita Alumni</a>
-            <a href="#" data-soon>Guru Menulis</a>
-            <a href="#" data-soon>Siswa Menulis</a>
-          </div>
-        </div>
-
-        <div class="nav-item">
-          <a href="#spmb" class="nav-link nav-link--parent">SPMB <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#spmb">Informasi SPMB</a>
-            <a href="#jurusan">Jurusan</a>
-          </div>
-        </div>
-
-        <div class="nav-item">
-          <a href="#bkk" class="nav-link nav-link--parent">Kerjasama <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#bkk">Mitra Industri</a>
-            <a href="#" data-soon>Perguruan Tinggi</a>
-            <a href="#" data-soon>Instansi Pemerintah</a>
-            <a href="#" data-soon>Swasta</a>
-            <a href="#" data-soon>Pelatihan</a>
-            <a href="#" data-soon>Studi Tiru</a>
-            <a href="#" data-soon>Narasumber</a>
-          </div>
-        </div>
-
-        <a href="#bkk" class="nav-link">BKK</a>
-
-        <div class="nav-item">
-          <a href="#" class="nav-link nav-link--parent" data-soon>Lainnya <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop nav-drop--right">
-            <a href="#" data-soon>LSP P1 — Uji Kompetensi</a>
-            <a href="#" data-soon>Perpustakaan</a>
-            <span class="nav-drop__label">SMK Pusat Keunggulan</span>
-            <a href="#" data-soon>Magang Guru</a>
-            <a href="#" data-soon>Magang Jepang</a>
-            <a href="#" data-soon>Praktisi Mengajar</a>
-            <a href="#" data-soon>Workshop</a>
-          </div>
-        </div>
-        <a href="#spmb" class="btn btn--acc btn--sm navbar__cta">Daftar SPMB</a>
-      </nav>
-
-      <button class="navbar__burger" id="navBurger" aria-label="Buka menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
+  <header class="navbar" id="navbar" data-component="navbar" data-active="beranda"></header>
 
   <!-- ═══════════ HERO — modern split + mesh gradient ═══════════ -->
   <section class="hero" id="beranda">
@@ -174,7 +53,7 @@
           ke dunia kerja.
         </p>
         <div class="hero__actions reveal-item">
-          <a href="#spmb" class="btn btn--acc">Daftar SPMB <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a href="spmb.html" class="btn btn--acc">Daftar SPMB <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
           <a href="#jurusan" class="btn btn--outline-dark">Jelajahi 10 Jurusan</a>
         </div>
         <div class="hero__proof reveal-item">
@@ -239,7 +118,7 @@
             <li>Perpustakaan digital &amp; internet fiber dedicated</li>
             <li>Kemitraan industri untuk PKL &amp; rekrutmen lulusan</li>
           </ul>
-          <a href="#jurusan" class="btn btn--navy">Lihat Kompetensi Keahlian</a>
+          <a href="jurusan.html" class="btn btn--navy">Lihat Kompetensi Keahlian</a>
         </div>
         <div class="profil-grid__visual reveal" aria-hidden="true">
           <div class="photo-ph photo-ph--tall tilt-card">
@@ -294,64 +173,64 @@
       </div>
 
       <div class="jurusan-grid" id="jurusanGrid">
-        <a href="#" class="jcard reveal" data-rumpun="Maritim">
+        <a href="jurusan.html#nautika-kapal-niaga" class="jcard reveal" data-rumpun="Maritim">
           <span class="jcard__tag jcard__tag--gold">Unggulan</span>
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-anchor"/></svg>
           <h3>Nautika Kapal Niaga</h3>
           <p>Calon perwira kapal niaga: navigasi, olah gerak, dan keselamatan pelayaran standar internasional.</p>
           <span class="jcard__more">NKN <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Maritim">
+        <a href="jurusan.html#konstruksi-kapal-baja" class="jcard reveal" data-rumpun="Maritim">
           <span class="jcard__tag jcard__tag--gold">Unggulan</span>
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-ship"/></svg>
           <h3>Konstruksi Kapal Baja</h3>
           <p>Perancangan, pembangunan, dan reparasi badan kapal baja dari gambar hingga galangan.</p>
           <span class="jcard__more">KKB <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Maritim">
+        <a href="jurusan.html#teknik-pemesinan-kapal" class="jcard reveal" data-rumpun="Maritim">
           <span class="jcard__tag jcard__tag--gold">Unggulan</span>
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-gear"/></svg>
           <h3>Teknik Pemesinan Kapal</h3>
           <p>Mesin penggerak kapal: pemasangan, pengoperasian, perawatan, dan perbaikannya.</p>
           <span class="jcard__more">TPK <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Manufaktur">
+        <a href="jurusan.html#teknik-pengelasan-fabrikasi-logam" class="jcard reveal" data-rumpun="Manufaktur">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-flame"/></svg>
           <h3>Teknik Pengelasan &amp; Fabrikasi Logam</h3>
           <p>Las SMAW/GMAW/GTAW dan fabrikasi logam untuk industri manufaktur hingga maritim.</p>
           <span class="jcard__more">TPFL <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Otomotif">
+        <a href="jurusan.html#teknik-kendaraan-ringan" class="jcard reveal" data-rumpun="Otomotif">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-car"/></svg>
           <h3>Teknik Kendaraan Ringan</h3>
           <p>Perawatan &amp; perbaikan mobil: mesin, sasis, kelistrikan, dan teknologi injeksi modern.</p>
           <span class="jcard__more">TKR <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Otomotif">
+        <a href="jurusan.html#teknik-sepeda-motor" class="jcard reveal" data-rumpun="Otomotif">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-moto"/></svg>
           <h3>Teknik Sepeda Motor</h3>
           <p>Servis motor konvensional &amp; injeksi, hingga dasar sepeda motor listrik.</p>
           <span class="jcard__more">TBSM <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Otomotif">
+        <a href="jurusan.html#perawatan-bodi-otomotif" class="jcard reveal" data-rumpun="Otomotif">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-drop"/></svg>
           <h3>Perawatan Bodi Otomotif</h3>
           <p>Perbaikan panel, pengecatan oven, hingga detailing kendaraan standar bengkel resmi.</p>
           <span class="jcard__more">PBO <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
+        <a href="jurusan.html#rekayasa-perangkat-lunak-gim" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-gamepad"/></svg>
-          <h3>Rekayasa Perangkat Lunak Game</h3>
+          <h3>Rekayasa Perangkat Lunak dan Gim</h3>
           <p>Pemrograman, pengembangan aplikasi, dan pembuatan game hingga publikasi.</p>
           <span class="jcard__more">RPLG <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
+        <a href="jurusan.html#manajemen-logistik" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-box"/></svg>
           <h3>Manajemen Logistik</h3>
           <p>Pergudangan, distribusi, dan ekspor-impor — selaras Semarang sebagai kota pelabuhan.</p>
           <span class="jcard__more">MANLOG <svg class="ic" aria-hidden="true"><use href="#i-arrow"/></svg></span>
         </a>
-        <a href="#" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
+        <a href="jurusan.html#bisnis-digital" class="jcard reveal" data-rumpun="Teknologi & Bisnis">
           <span class="jcard__tag">Baru</span>
           <svg class="jcard__icon" aria-hidden="true"><use href="#i-trend"/></svg>
           <h3>Bisnis Digital</h3>
@@ -370,10 +249,10 @@
           <p class="eyebrow">Prestasi</p>
           <h2 class="section-title">Prestasi <em>Siswa &amp; Sekolah</em></h2>
         </div>
-        <a href="#" class="btn btn--outline btn--sm">Semua Prestasi <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="#" data-soon class="btn btn--outline btn--sm">Semua Prestasi <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
 
-      <div class="prestasi-grid">
+      <div class="prestasi-grid" data-source="prestasi" data-only="unggulan">
         <article class="pcard reveal">
           <div class="pcard__media photo-ph"><span class="photo-ph__label">Foto Prestasi</span>
             <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=70" alt="Praktik pengelasan" loading="lazy" onerror="this.remove()">
@@ -419,10 +298,10 @@
           <p class="eyebrow">Lulusan</p>
           <h2 class="section-title">Cerita <em>Alumni</em></h2>
         </div>
-        <a href="#" class="btn btn--outline btn--sm">Semua Alumni <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="#" data-soon class="btn btn--outline btn--sm">Semua Alumni <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
 
-      <div class="alumni-grid">
+      <div class="alumni-grid" data-source="alumni" data-only="unggulan">
         <figure class="acard reveal">
           <blockquote>“Simulator kapal di sekolah membuat saya percaya diri saat pertama kali dinas jaga sungguhan.”</blockquote>
           <figcaption>
@@ -457,7 +336,7 @@
       </div>
     </div>
     <div class="marquee" aria-hidden="true">
-      <div class="marquee__track">
+      <div class="marquee__track" data-source="mitra">
         <span class="mlogo">PT Samudra Baja Nusantara</span>
         <span class="mlogo">PT Pelayaran Jaya Bahari</span>
         <span class="mlogo">CV Otomotif Prima Motor</span>
@@ -477,7 +356,7 @@
         Bursa Kerja Khusus (BKK) membantu lulusan mencari kerja di perusahaan mitra.
         Informasi lowongan dan tempat PKL diperbarui rutin di halaman BKK.
       </p>
-      <a href="#" class="btn btn--navy">Lihat Lowongan BKK</a>
+      <a href="bkk.html" class="btn btn--navy">Lihat Lowongan BKK</a>
     </div>
   </section>
 
@@ -489,46 +368,46 @@
           <p class="eyebrow">Teaching Factory · BLUD</p>
           <h2 class="section-title">Produk &amp; Jasa <em>Buatan Siswa</em></h2>
         </div>
-        <a href="#" class="btn btn--outline btn--sm">Semua Produk <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a href="blud.html" class="btn btn--outline btn--sm">Semua Produk <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
 
       <div class="produk-grid">
         <article class="prcard reveal">
-          <div class="photo-ph"><span class="photo-ph__label">Foto Produk</span>
-            <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=70" alt="Perbaikan mesin kendaraan" loading="lazy" onerror="this.remove()">
+          <div class="photo-ph"><span class="photo-ph__label">Foto Divisi</span>
+            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=70" alt="Produk perkakas logam" loading="lazy" onerror="this.remove()">
           </div>
           <div class="prcard__body">
-            <small>Jasa · TBSM</small>
-            <h3>Servis Sepeda Motor</h3>
+            <small>Divisi Perkakas</small>
+            <h3>Perkakas Rumah &amp; Sekolah</h3>
             <div class="prcard__row">
-              <span class="prcard__price">Rp 35.000<small>/servis</small></span>
-              <a href="https://wa.me/6281226907008" class="btn btn--wa btn--sm" target="_blank" rel="noopener">Pesan</a>
+              <span class="prcard__price">Rak · pot · tutup drainase</span>
+              <a href="blud.html" class="btn btn--navy btn--sm">Detail</a>
             </div>
           </div>
         </article>
         <article class="prcard reveal">
-          <div class="photo-ph"><span class="photo-ph__label">Foto Produk</span>
-            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=800&q=70" alt="Pekerjaan logam industri" loading="lazy" onerror="this.remove()">
+          <div class="photo-ph"><span class="photo-ph__label">Foto Divisi</span>
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70" alt="Pengembangan aplikasi" loading="lazy" onerror="this.remove()">
           </div>
           <div class="prcard__body">
-            <small>Produk · TPFL</small>
-            <h3>Pagar &amp; Kanopi Las Custom</h3>
+            <small>Divisi Software</small>
+            <h3>Aplikasi &amp; Website</h3>
             <div class="prcard__row">
-              <span class="prcard__price">Rp 450.000<small>/meter</small></span>
-              <a href="https://wa.me/6281226907008" class="btn btn--wa btn--sm" target="_blank" rel="noopener">Pesan</a>
+              <span class="prcard__price">BK Online · Stok Opname</span>
+              <a href="blud.html" class="btn btn--navy btn--sm">Detail</a>
             </div>
           </div>
         </article>
         <article class="prcard reveal">
-          <div class="photo-ph"><span class="photo-ph__label">Foto Produk</span>
-            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=70" alt="Laptop menampilkan grafik website" loading="lazy" onerror="this.remove()">
+          <div class="photo-ph"><span class="photo-ph__label">Foto Divisi</span>
+            <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=70" alt="Instalasi perangkat" loading="lazy" onerror="this.remove()">
           </div>
           <div class="prcard__body">
-            <small>Jasa · RPLG</small>
-            <h3>Pembuatan Website UMKM</h3>
+            <small>Divisi Jaringan &amp; Audio</small>
+            <h3>CCTV, Jaringan &amp; Sound</h3>
             <div class="prcard__row">
-              <span class="prcard__price">Rp 500.000<small>/paket</small></span>
-              <a href="https://wa.me/6281226907008" class="btn btn--wa btn--sm" target="_blank" rel="noopener">Pesan</a>
+              <span class="prcard__price">Instalasi &amp; perawatan</span>
+              <a href="blud.html" class="btn btn--navy btn--sm">Detail</a>
             </div>
           </div>
         </article>
@@ -546,7 +425,7 @@
         </div>
         <a href="#" class="btn btn--outline btn--sm" data-soon>Semua Pengumuman <svg class="ic btn__arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
       </div>
-      <div class="anno-list">
+      <div class="anno-list" data-source="pengumuman" data-limit="3">
         <a href="#" class="anno reveal" data-soon>
           <span class="anno__date"><strong>12</strong><small>Agu 2026</small></span>
           <span class="anno__body">
@@ -592,62 +471,14 @@
   </section>
 
   <!-- ═══════════ FOOTER ═══════════ -->
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div>
-        <p class="footer__brand"><strong>SMKN 10 SEMARANG</strong> OFFICIAL</p>
-        <p><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg> Jl. Kokrosono No. 75, Panggung Kidul,<br>Semarang Utara, Kota Semarang, Jawa Tengah</p>
-        <p>NPSN 20328947 · Akreditasi B</p>
-        <p>Kepala Sekolah: Albasori, S.Pd.</p>
-      </div>
-      <div>
-        <p class="footer__head">Menu</p>
-        <a href="#profil">Profil</a>
-        <a href="#jurusan">Jurusan</a>
-        <a href="#blud">Teaching Factory</a>
-        <a href="#bkk">BKK</a>
-      </div>
-      <div>
-        <p class="footer__head">Kontak</p>
-        <a href="tel:0243515701">(024) 3515701</a>
-        <a href="https://wa.me/6281226907008">+62 812-2690-7008</a>
-        <a href="mailto:smk10smg@yahoo.co.id">smk10smg@yahoo.co.id</a>
-      </div>
-      <div>
-        <p class="footer__head">Media Sosial</p>
-        <a href="https://instagram.com/smkn10semarang" target="_blank" rel="noopener">Instagram @smkn10semarang</a>
-        <a href="https://youtube.com/@VHS10TV" target="_blank" rel="noopener">YouTube @VHS10TV</a>
-        <a href="https://smk10semarang.sch.id" target="_blank" rel="noopener">smk10semarang.sch.id</a>
-      </div>
-    </div>
-    <div class="footer__bar">
-      <div class="container">© 2026 SMKN 10 Semarang — Sekolah Maritim &amp; Teknologi. Sejak 1954.</div>
-    </div>
-  </footer>
+  <footer class="footer" data-component="footer"></footer>
 
   <!-- ═══════════ CHATBOT ═══════════ -->
-  <button class="chat-fab" id="chatFab" aria-label="Buka asisten AI">
-    <span class="chat-fab__pulse" aria-hidden="true"></span>
-    <svg class="ic chat-fab__icon" aria-hidden="true"><use href="#i-chat"/></svg>
-  </button>
-  <div class="chat-panel" id="chatPanel" hidden>
-    <div class="chat-panel__head">
-      <strong>Layanan Informasi</strong>
-      <button id="chatClose" aria-label="Tutup">✕</button>
-    </div>
-    <div class="chat-panel__body">
-      <div class="chat-msg">Selamat datang di SMKN 10 Semarang. Mau tanya soal apa? Pilih topiknya, nanti langsung tersambung ke petugas kami lewat WhatsApp.</div>
-      <div class="chat-quick">
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20pendaftaran%20murid%20baru%20(SPMB)" target="_blank" rel="noopener">Pendaftaran (SPMB)</a>
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20jurusan%20di%20SMKN%2010%20Semarang" target="_blank" rel="noopener">Jurusan</a>
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20lowongan%20kerja%20%2F%20BKK" target="_blank" rel="noopener">BKK / Lowongan</a>
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20pesan%20produk%20BLUD" target="_blank" rel="noopener">Pesan Produk BLUD</a>
-        <a href="https://wa.me/6281226907008" target="_blank" rel="noopener">Pertanyaan Lain</a>
-      </div>
-      <p class="chat-note">Jam layanan: Senin–Jumat, 07.00–15.00 WIB</p>
-    </div>
-  </div>
+  <div data-component="chat"></div>
 
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
 </body>
 </html>

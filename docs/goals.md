@@ -1,4 +1,9 @@
-# Goals — Target Lomba Web Development
+# Goals — Target Proyek
+
+## 0. Dua Tujuan Utama
+
+1. **Lomba Web Development** — memenuhi seluruh kriteria lomba (detail di bawah).
+2. **Menggantikan situs resmi lama** ([smk10semarang.sch.id](https://smk10semarang.sch.id/)) — website baru ini disiapkan sebagai pengganti situs sekolah yang sekarang, dengan syarat mutlak: **tidak boleh ada informasi di situs lama yang hilang**. Seluruh menu, halaman, dan konten situs lama (Profil, Berita, Kegiatan, Teaching Factory, Prestasi, SPMB, Kerjasama, LSP P1, Perpustakaan, SMK PK, BKK — beserta semua submenu-nya) harus punya padanan di situs baru. Halaman yang belum dibangun ditandai "segera hadir" di navigasi, bukan dihapus.
 
 ## 1. Latar Belakang
 

@@ -14,110 +14,10 @@
 
   <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
-  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <defs>
-      <symbol id="i-anchor" viewBox="0 0 24 24"><circle cx="12" cy="5" r="3"/><path d="M12 8v13M5 12H2a10 10 0 0 0 20 0h-3"/></symbol>
-      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5c-1.3 0-2.6-.3-3.8-.9L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5z"/></symbol>
-      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
-      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
-      <symbol id="i-caret" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
-    </defs>
-  </svg>
+  <div data-component="sprite"></div>
 
   <!-- ═══════════ NAVBAR ═══════════ -->
-  <header class="navbar is-scrolled" id="navbar">
-    <div class="container navbar__inner">
-      <a href="index.html" class="navbar__brand">
-        <span class="navbar__logo" aria-hidden="true">
-          <svg class="ic" style="width:24px;height:24px"><use href="#i-anchor"/></svg>
-        </span>
-        <span class="navbar__name">
-          <strong>SMKN 10 SEMARANG</strong>
-          <small>OFFICIAL</small>
-        </span>
-      </a>
-
-      <nav class="navbar__menu" id="navMenu" aria-label="Menu utama">
-        <a href="index.html" class="nav-link">Beranda</a>
-        <div class="nav-item">
-          <a href="index.html#profil" class="nav-link nav-link--parent">Profil <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="index.html#profil">Sejarah</a>
-            <a href="index.html#profil">Visi, Misi &amp; Tujuan</a>
-            <a href="#" data-soon>Struktur Organisasi</a>
-          </div>
-        </div>
-        <a href="#" class="nav-link" data-soon>Berita</a>
-        <div class="nav-item">
-          <a href="#" class="nav-link nav-link--parent" data-soon>Kegiatan <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="#" data-soon>Agenda</a>
-            <a href="index.html#pengumuman">Pengumuman</a>
-            <a href="#" data-soon>Kesiswaan</a>
-            <a href="#" data-soon>Komunitas Belajar</a>
-            <a href="#" data-soon>Parenting</a>
-            <a href="#" data-soon>Kerohanian</a>
-            <a href="#" data-soon>Laporan BOS</a>
-          </div>
-        </div>
-        <div class="nav-item">
-          <a href="blud.html" class="nav-link nav-link--parent">Teaching Factory <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="blud.html">Produk &amp; Jasa</a>
-            <a href="blud.html#divisi">Divisi</a>
-            <a href="#" data-soon>MOU Industri</a>
-            <a href="#" data-soon>Berita Tefa</a>
-          </div>
-        </div>
-        <div class="nav-item">
-          <a href="index.html#prestasi" class="nav-link nav-link--parent">Prestasi <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="index.html#prestasi">Prestasi Sekolah</a>
-            <a href="index.html#alumni">Cerita Alumni</a>
-            <a href="#" data-soon>Guru Menulis</a>
-            <a href="#" data-soon>Siswa Menulis</a>
-          </div>
-        </div>
-        <div class="nav-item">
-          <a href="spmb.html" class="nav-link nav-link--parent is-active">SPMB <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="spmb.html">Informasi SPMB</a>
-            <a href="jurusan.html">Jurusan</a>
-          </div>
-        </div>
-        <div class="nav-item">
-          <a href="bkk.html" class="nav-link nav-link--parent">Kerjasama <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop">
-            <a href="bkk.html">Mitra Industri</a>
-            <a href="#" data-soon>Perguruan Tinggi</a>
-            <a href="#" data-soon>Instansi Pemerintah</a>
-            <a href="#" data-soon>Swasta</a>
-            <a href="#" data-soon>Pelatihan</a>
-            <a href="#" data-soon>Studi Tiru</a>
-            <a href="#" data-soon>Narasumber</a>
-          </div>
-        </div>
-        <a href="bkk.html" class="nav-link">BKK</a>
-        <div class="nav-item">
-          <a href="#" class="nav-link nav-link--parent" data-soon>Lainnya <svg class="ic nav-caret" aria-hidden="true"><use href="#i-caret"/></svg></a>
-          <div class="nav-drop nav-drop--right">
-            <a href="#" data-soon>LSP P1 — Uji Kompetensi</a>
-            <a href="https://smkn10semarang.perpustakaan.co.id/" target="_blank" rel="noopener">Perpustakaan</a>
-            <span class="nav-drop__label">SMK Pusat Keunggulan</span>
-            <a href="#" data-soon>Magang Guru</a>
-            <a href="#" data-soon>Magang Jepang</a>
-            <a href="#" data-soon>Praktisi Mengajar</a>
-            <a href="#" data-soon>Workshop</a>
-          </div>
-        </div>
-        <a href="spmb.html#daftar" class="btn btn--acc btn--sm navbar__cta">Daftar SPMB</a>
-      </nav>
-
-      <button class="navbar__burger" id="navBurger" aria-label="Buka menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </header>
+  <header class="navbar" id="navbar" data-component="navbar" data-active="spmb"></header>
 
   <!-- ═══════════ PAGE HERO ═══════════ -->
   <section class="page-hero">
@@ -147,7 +47,7 @@
         <span class="stat__label">Pilihan Jurusan SPMB</span>
       </div>
       <div class="stat">
-        <span class="stat__num" data-count="0" data-suffix=" Rp">0</span>
+        <span class="stat__num" data-count="0" data-plain="true">0</span>
         <span class="stat__label">Biaya Pendaftaran (Gratis)</span>
       </div>
       <div class="stat">
@@ -342,61 +242,14 @@
   </section>
 
   <!-- ═══════════ FOOTER ═══════════ -->
-  <footer class="footer">
-    <div class="container footer__grid">
-      <div>
-        <p class="footer__brand"><strong>SMKN 10 SEMARANG</strong> OFFICIAL</p>
-        <p><svg class="ic" aria-hidden="true"><use href="#i-pin"/></svg> Jl. Kokrosono No. 75, Panggung Kidul,<br>Semarang Utara, Kota Semarang, Jawa Tengah</p>
-        <p>NPSN 20328947 · Akreditasi B</p>
-        <p>Kepala Sekolah: Albasori, S.Pd.</p>
-      </div>
-      <div>
-        <p class="footer__head">Menu</p>
-        <a href="index.html#profil">Profil</a>
-        <a href="jurusan.html">Jurusan</a>
-        <a href="blud.html">Teaching Factory</a>
-        <a href="bkk.html">BKK</a>
-      </div>
-      <div>
-        <p class="footer__head">Kontak</p>
-        <a href="tel:0243515701">(024) 3515701</a>
-        <a href="https://wa.me/6281226907008">+62 812-2690-7008</a>
-        <a href="mailto:smk10smg@yahoo.co.id">smk10smg@yahoo.co.id</a>
-      </div>
-      <div>
-        <p class="footer__head">Media Sosial</p>
-        <a href="https://instagram.com/smkn10semarang" target="_blank" rel="noopener">Instagram @smkn10semarang</a>
-        <a href="https://youtube.com/@VHS10TV" target="_blank" rel="noopener">YouTube @VHS10TV</a>
-        <a href="https://smk10semarang.sch.id" target="_blank" rel="noopener">smk10semarang.sch.id</a>
-      </div>
-    </div>
-    <div class="footer__bar">
-      <div class="container">© 2026 SMKN 10 Semarang — Sekolah Maritim &amp; Teknologi. Sejak 1954.</div>
-    </div>
-  </footer>
+  <footer class="footer" data-component="footer"></footer>
 
   <!-- ═══════════ CHAT ═══════════ -->
-  <button class="chat-fab" id="chatFab" aria-label="Buka layanan informasi">
-    <span class="chat-fab__pulse" aria-hidden="true"></span>
-    <svg class="ic chat-fab__icon" aria-hidden="true"><use href="#i-chat"/></svg>
-  </button>
-  <div class="chat-panel" id="chatPanel" hidden>
-    <div class="chat-panel__head">
-      <strong>Layanan Informasi</strong>
-      <button id="chatClose" aria-label="Tutup">✕</button>
-    </div>
-    <div class="chat-panel__body">
-      <div class="chat-msg">Selamat datang di SMKN 10 Semarang. Mau tanya soal apa? Pilih topiknya, nanti langsung tersambung ke petugas kami lewat WhatsApp.</div>
-      <div class="chat-quick">
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20pendaftaran%20murid%20baru%20(SPMB)" target="_blank" rel="noopener">Pendaftaran (SPMB)</a>
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20jurusan%20di%20SMKN%2010%20Semarang" target="_blank" rel="noopener">Jurusan</a>
-        <a href="https://wa.me/6281226907008?text=Halo%2C%20saya%20mau%20tanya%20soal%20lowongan%20kerja%20%2F%20BKK" target="_blank" rel="noopener">BKK / Lowongan</a>
-        <a href="https://wa.me/6281226907008" target="_blank" rel="noopener">Pertanyaan Lain</a>
-      </div>
-      <p class="chat-note">Jam layanan: Senin–Jumat, 07.00–15.00 WIB</p>
-    </div>
-  </div>
+  <div data-component="chat"></div>
 
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
 </body>
 </html>
