@@ -109,10 +109,10 @@
     try {
       let rows;
       if (info.sumber === "pengumuman") {
-        const res = await fetch(BASE + "/pengumuman.json", { cache: "no-cache" });
+        const res = await fetch(BASE + "/pengumuman.json?v=" + Math.floor(Date.now()/60000), { cache: "no-cache" });
         rows = (await res.json()).map(({ _catatan, ...r }) => ({ ...r, ringkasan: r.isi, url: "#" }));
       } else {
-        const res = await fetch(BASE + "/berita.json", { cache: "no-cache" });
+        const res = await fetch(BASE + "/berita.json?v=" + Math.floor(Date.now()/60000), { cache: "no-cache" });
         rows = (await res.json()).map(({ _catatan, ...r }) => r).filter((r) => r.kategori === k);
       }
       rows.sort((a, b) => (a.tanggal < b.tanggal ? 1 : -1));
