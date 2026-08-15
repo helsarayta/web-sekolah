@@ -13,7 +13,10 @@
   if (!BASE) return;
 
   const get = async (name) => {
-    const res = await fetch(`${BASE}/${name}.json`, { cache: "no-cache" });
+    // parameter ?v per menit menembus cache CDN raw GitHub (TTL ±5 menit),
+    // sehingga perubahan konten tampil paling lambat 60 detik
+    const v = Math.floor(Date.now() / 60000);
+    const res = await fetch(`${BASE}/${name}.json?v=${v}`, { cache: "no-cache" });
     if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
     const data = await res.json();
     // buang kunci internal "_catatan" pada item pertama data mock
