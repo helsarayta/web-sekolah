@@ -937,11 +937,23 @@ a { color: inherit; text-decoration: none; }
 .jd li { position: relative; padding-left: 22px; font-size: .9rem; color: var(--ink-soft); }
 .jd li::before { content: ""; position: absolute; left: 0; top: 8px; width: 8px; height: 8px; border-radius: 3px; background: var(--grad); }
 .detail-card {
+  --pad: clamp(24px, 4vw, 36px);
   background: var(--bg);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: clamp(24px, 4vw, 36px);
+  padding: var(--pad);
+  overflow: hidden;
   scroll-margin-top: calc(var(--nav-h) + 20px);
+}
+.detail-card__photo {
+  margin: calc(-1 * var(--pad)) calc(-1 * var(--pad)) 22px;
+  border-radius: 0;
+  min-height: 210px;
+}
+.jcard__photo {
+  margin: -26px -22px 18px;
+  border-radius: 0;
+  min-height: 140px;
 }
 .detail-card + .detail-card { margin-top: 18px; }
 .detail-card__head { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
@@ -958,8 +970,48 @@ a { color: inherit; text-decoration: none; }
 .rumpun-head::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .rumpun-head:first-of-type { margin-top: 0; }
 
+/* ═══════════ BAGAN ORGANISASI ═══════════ */
+.org { display: grid; justify-items: center; gap: 0; }
+.org-line { width: 2px; height: 30px; background: var(--line); }
+.org-label {
+  font-size: .72rem; font-weight: 800;
+  letter-spacing: .16em; text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 6px 0 14px;
+}
+.org-row { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
+.org-card {
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 18px 20px;
+  text-align: center;
+  min-width: 200px;
+  transition: transform .3s var(--ease), border-color .3s, box-shadow .3s;
+}
+.org-card:hover { transform: translateY(-4px); border-color: rgba(37,99,235,.45); box-shadow: var(--shadow); }
+.org-card__avatar {
+  width: 52px; height: 52px;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--grad);
+  color: #fff; font-weight: 800; font-size: .95rem;
+}
+.org-card strong { display: block; font-size: .92rem; line-height: 1.35; }
+.org-card small { color: var(--ink-soft); font-size: .74rem; font-weight: 600; }
+.org-card--top {
+  background: var(--dark);
+  border-color: rgba(59,130,246,.35);
+}
+.org-card--top strong { color: #fff; }
+.org-card--top small { color: rgba(255,255,255,.65); }
+.org-card--sm { min-width: 165px; padding: 14px 16px; }
+.org-card--sm .org-card__avatar { width: 42px; height: 42px; font-size: .8rem; }
+
 @media (max-width: 760px) {
   .form-grid, .low-grid, .jd { grid-template-columns: 1fr; }
+  .org-card { min-width: calc(50% - 8px); }
 }
 
 /* ═══════════ RESPONSIVE ═══════════ */
