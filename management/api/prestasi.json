@@ -7,7 +7,7 @@
     "tahun": 2026,
     "peraih": "Ananda Pratama (TPFL)",
     "deskripsi": "Meraih juara pertama Lomba Kompetensi Siswa bidang Welding dan mewakili Jawa Tengah ke tingkat nasional.",
-    "foto": "/assets/img/placeholder/prestasi-1.jpg",
+    "foto": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=70",
     "unggulan": true
   },
   {
@@ -17,7 +17,7 @@
     "tahun": 2025,
     "peraih": "Tim Bahari (NKN & TPK)",
     "deskripsi": "Tim gabungan jurusan maritim meraih posisi kedua kategori fuel engine pada kompetisi tingkat nasional.",
-    "foto": "/assets/img/placeholder/prestasi-2.jpg",
+    "foto": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=800&q=70",
     "unggulan": true
   },
   {
@@ -27,7 +27,7 @@
     "tahun": 2026,
     "peraih": "Tim Pixelaut (RPLG)",
     "deskripsi": "Game edukasi bertema keselamatan pelayaran karya siswa RPLG menjadi karya terbaik Game Jam pelajar se-Kota Semarang.",
-    "foto": "/assets/img/placeholder/prestasi-3.jpg",
+    "foto": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=70",
     "unggulan": true
   },
   {
@@ -37,7 +37,7 @@
     "tahun": 2025,
     "peraih": "Rizky Ananda (PBO)",
     "deskripsi": "Prestasi bidang perbaikan bodi otomotif pada Lomba Kompetensi Siswa tingkat provinsi.",
-    "foto": "/assets/img/placeholder/prestasi-4.jpg",
+    "foto": "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?auto=format&fit=crop&w=800&q=70",
     "unggulan": false
   },
   {
@@ -47,7 +47,7 @@
     "tahun": 2024,
     "peraih": "Tim Manlog Muda (MANLOG)",
     "deskripsi": "Inovasi sistem pencatatan gudang sederhana berbasis barcode karya siswa Manajemen Logistik.",
-    "foto": "/assets/img/placeholder/prestasi-5.jpg",
+    "foto": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=800&q=70",
     "unggulan": false
   },
   {
@@ -57,7 +57,7 @@
     "tahun": 2026,
     "peraih": "Kontingen SMKN 10 Semarang",
     "deskripsi": "Meraih juara umum cabang pencak silat pada Pekan Olahraga Pelajar Daerah Kota Semarang.",
-    "foto": "/assets/img/placeholder/prestasi-6.jpg",
+    "foto": "https://images.unsplash.com/photo-1555597673-b21d5c935865?auto=format&fit=crop&w=800&q=70",
     "unggulan": false
   }
 ]
