@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Berita & Kegiatan | SMKN 10 Semarang</title>
+  <meta name="description" content="Berita, agenda, dan kegiatan SMKN 10 Semarang — dari prestasi siswa, kegiatan kesiswaan, sampai kerja sama industri.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+  <div data-component="sprite"></div>
+  <header class="navbar" id="navbar" data-component="navbar" data-active="berita"></header>
+
+  <!-- ═══════════ PAGE HERO ═══════════ -->
+  <section class="page-hero">
+    <div class="hero__mesh" aria-hidden="true">
+      <span class="blob blob--a"></span>
+      <span class="blob blob--b"></span>
+    </div>
+    <div class="container">
+      <p class="page-hero__crumb"><a href="index.html">Beranda</a> <span>/</span> <span id="crumbKategori">Berita</span></p>
+      <h1 id="judulKategori">Berita <em>&amp; Kegiatan</em></h1>
+      <p class="page-hero__lead" id="deskKategori">Kabar terbaru dari SMKN 10 Semarang.</p>
+    </div>
+  </section>
+
+  <!-- ═══════════ FILTER KATEGORI ═══════════ -->
+  <section class="section--slim section">
+    <div class="container">
+      <div class="rumpun-tabs" id="kategoriTabs" aria-label="Pilih kategori"></div>
+
+      <div class="anno-list" id="artikelList" style="margin-top:10px">
+        <p class="lead">Memuat artikel…</p>
+      </div>
+
+      <p class="form-note" id="arsipNote" style="margin-top:18px"></p>
+    </div>
+  </section>
+
+  <footer class="footer" data-component="footer"></footer>
+  <div data-component="chat"></div>
+
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/components.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  <script defer>
+  /* Halaman arsip serbaguna: ?k=<kategori> menampilkan artikel kategori itu.
+     Artikel diambil dari API (berita.json / pengumuman.json); tiap kategori juga
+     menautkan arsip lengkapnya di situs lama — tidak ada informasi yang hilang. */
+  window.addEventListener("DOMContentLoaded", async () => {
+    const BASE = window.SITE_CONFIG.API_BASE;
+    const KATEGORI = {
+      "berita":            { nama: "Berita",              resmi: "https://smk10semarang.sch.id/berita/" },
+      "pengumuman":        { nama: "Pengumuman",          resmi: "https://smk10semarang.sch.id/pengumuman/", sumber: "pengumuman" },
+      "agenda":            { nama: "Agenda",              resmi: "https://smk10semarang.sch.id/agenda/" },
+      "ppdb":              { nama: "Info SPMB / PPDB",    resmi: "https://smk10semarang.sch.id/category/ppdb/" },
+      "fim":               { nama: "Forum Ilmiah Mingguan", resmi: "https://smk10semarang.sch.id/forum-ilmiah-mingguan/" },
+      "kesiswaan":         { nama: "Kesiswaan",           resmi: "https://smk10semarang.sch.id/" },
+      "komunitas-belajar": { nama: "Komunitas Belajar",   resmi: "https://smk10semarang.sch.id/" },
+      "parenting":         { nama: "Parenting",           resmi: "https://smk10semarang.sch.id/" },
+      "kerohanian":        { nama: "Kerohanian",          resmi: "https://smk10semarang.sch.id/" },
+      "laporan-bos":       { nama: "Laporan BOS",         resmi: "https://smk10semarang.sch.id/" },
+      "tefa":              { nama: "Berita Teaching Factory", resmi: "https://smk10semarang.sch.id/category/tefa/" },
+      "mou":               { nama: "MOU Industri",        resmi: "https://smk10semarang.sch.id/mou/" },
+      "pelatihan":         { nama: "Kerjasama — Pelatihan", resmi: "https://smk10semarang.sch.id/category/pelatihan/" },
+      "studi-tiru":        { nama: "Kerjasama — Studi Tiru", resmi: "https://smk10semarang.sch.id/category/studi-tiru/" },
+      "narasumber":        { nama: "Kerjasama — Narasumber", resmi: "https://smk10semarang.sch.id/category/narasumber/" },
+      "perguruan-tinggi":  { nama: "Kerjasama — Perguruan Tinggi", resmi: "https://smk10semarang.sch.id/category/perguruan-tinggi/" },
+      "instansi":          { nama: "Kerjasama — Instansi Pemerintah", resmi: "https://smk10semarang.sch.id/category/instansi/" },
+      "swasta":            { nama: "Kerjasama — Swasta",  resmi: "https://smk10semarang.sch.id/category/swasta/" },
+      "lsp-p1":            { nama: "LSP P1 — Uji Kompetensi", resmi: "https://smk10semarang.sch.id/category/lsp-p1/" },
+      "magang-guru":       { nama: "SMK PK — Magang Guru", resmi: "https://smk10semarang.sch.id/" },
+      "magang-jepang":     { nama: "SMK PK — Magang Jepang", resmi: "https://smk10semarang.sch.id/" },
+      "praktisi-mengajar": { nama: "SMK PK — Praktisi Mengajar", resmi: "https://smk10semarang.sch.id/" },
+      "workshop":          { nama: "SMK PK — Workshop",   resmi: "https://smk10semarang.sch.id/" },
+      "guru-menulis":      { nama: "Guru Menulis",        resmi: "https://smk10semarang.sch.id/" },
+      "siswa-menulis":     { nama: "Siswa Menulis",       resmi: "https://smk10semarang.sch.id/" }
+    };
+    const TAB_UTAMA = ["berita", "pengumuman", "agenda", "ppdb", "tefa", "lsp-p1"];
+    const bulan = ["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"];
+    const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+    const k = new URLSearchParams(location.search).get("k") || "berita";
+    const info = KATEGORI[k] || KATEGORI["berita"];
+
+    document.title = info.nama + " | SMKN 10 Semarang";
+    document.getElementById("crumbKategori").textContent = info.nama;
+    document.getElementById("judulKategori").innerHTML = esc(info.nama).replace(/^(\S+)/, "$1").replace(/ (—|&amp;) /, " $1 ") ;
+    document.getElementById("judulKategori").innerHTML = (() => {
+      const parts = info.nama.split(" ");
+      return esc(parts[0]) + " <em>" + esc(parts.slice(1).join(" ") || "Terbaru") + "</em>";
+    })();
+    document.getElementById("deskKategori").textContent = "Arsip " + info.nama.toLowerCase() + " SMKN 10 Semarang.";
+
+    // tab kategori utama
+    document.getElementById("kategoriTabs").innerHTML = TAB_UTAMA.map((key) =>
+      `<a class="rumpun-tab ${key === k ? "is-active" : ""}" href="berita.html?k=${key}">${esc(KATEGORI[key].nama)}</a>`
+    ).join("");
+
+    const list = document.getElementById("artikelList");
+    const note = document.getElementById("arsipNote");
+    note.innerHTML = `Arsip lengkap kategori ini juga tersedia di <a href="${info.resmi}" target="_blank" rel="noopener"><strong>situs resmi sekolah</strong></a>.`;
+
+    try {
+      let rows;
+      if (info.sumber === "pengumuman") {
+        const res = await fetch(BASE + "/pengumuman.json", { cache: "no-cache" });
+        rows = (await res.json()).map(({ _catatan, ...r }) => ({ ...r, ringkasan: r.isi, url: "#" }));
+      } else {
+        const res = await fetch(BASE + "/berita.json", { cache: "no-cache" });
+        rows = (await res.json()).map(({ _catatan, ...r }) => r).filter((r) => r.kategori === k);
+      }
+      rows.sort((a, b) => (a.tanggal < b.tanggal ? 1 : -1));
+      if (!rows.length) {
+        list.innerHTML = `<p class="lead">Belum ada artikel pada kategori ini di situs baru — silakan lihat arsipnya di <a href="${info.resmi}" target="_blank" rel="noopener"><strong>situs resmi</strong></a>.</p>`;
+        return;
+      }
+      list.innerHTML = rows.map((r) => {
+        const d = new Date(r.tanggal + "T00:00:00");
+        const href = r.url && r.url !== "#" ? r.url : info.resmi;
+        return `
+        <a href="${esc(href)}" target="_blank" rel="noopener" class="anno">
+          <span class="anno__date"><strong>${String(d.getDate()).padStart(2, "0")}</strong><small>${bulan[d.getMonth()]} ${d.getFullYear()}</small></span>
+          <span class="anno__body"><strong>${esc(r.judul)}</strong><small>${esc(r.ringkasan || "")}</small></span>
+          <svg class="ic anno__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>`;
+      }).join("");
+    } catch (err) {
+      list.innerHTML = `<p class="lead">Artikel tidak dapat dimuat. Lihat arsip di <a href="${info.resmi}" target="_blank" rel="noopener"><strong>situs resmi sekolah</strong></a>.</p>`;
+    }
+  });
+  </script>
+</body>
+</html>

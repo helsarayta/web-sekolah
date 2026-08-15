@@ -47,24 +47,25 @@
     <nav class="navbar__menu" id="navMenu" aria-label="Menu utama">
       <a href="${onHome ? "#beranda" : "index.html"}" class="nav-link ${active === "beranda" ? "is-active" : ""}">Beranda</a>
       <div class="nav-item">
-        <a href="${home("#profil")}" class="nav-link nav-link--parent ${active === "profil" ? "is-active" : ""}">Profil ${caret}</a>
+        <a href="profil.html" class="nav-link nav-link--parent ${active === "profil" ? "is-active" : ""}">Profil ${caret}</a>
         <div class="nav-drop">
-          <a href="${home("#profil")}">Sejarah</a>
-          <a href="${home("#profil")}">Visi, Misi &amp; Tujuan</a>
-          <a href="#" data-soon>Struktur Organisasi</a>
+          <a href="profil.html#sejarah">Sejarah</a>
+          <a href="profil.html#visi-misi">Visi, Misi &amp; Tujuan</a>
+          <a href="profil.html#struktur">Struktur Organisasi</a>
         </div>
       </div>
-      <a href="#" class="nav-link" data-soon>Berita</a>
+      <a href="berita.html" class="nav-link ${active === "berita" ? "is-active" : ""}">Berita</a>
       <div class="nav-item">
-        <a href="#" class="nav-link nav-link--parent" data-soon>Kegiatan ${caret}</a>
+        <a href="berita.html?k=agenda" class="nav-link nav-link--parent">Kegiatan ${caret}</a>
         <div class="nav-drop">
-          <a href="#" data-soon>Agenda</a>
-          <a href="${home("#pengumuman")}">Pengumuman</a>
-          <a href="#" data-soon>Kesiswaan</a>
-          <a href="#" data-soon>Komunitas Belajar</a>
-          <a href="#" data-soon>Parenting</a>
-          <a href="#" data-soon>Kerohanian</a>
-          <a href="#" data-soon>Laporan BOS</a>
+          <a href="berita.html?k=agenda">Agenda</a>
+          <a href="berita.html?k=pengumuman">Pengumuman</a>
+          <a href="berita.html?k=kesiswaan">Kesiswaan</a>
+          <a href="berita.html?k=komunitas-belajar">Komunitas Belajar</a>
+          <a href="berita.html?k=parenting">Parenting</a>
+          <a href="berita.html?k=kerohanian">Kerohanian</a>
+          <a href="berita.html?k=laporan-bos">Laporan BOS</a>
+          <a href="berita.html?k=fim">Forum Ilmiah Mingguan</a>
         </div>
       </div>
       <div class="nav-item">
@@ -72,17 +73,17 @@
         <div class="nav-drop">
           <a href="blud.html">Produk &amp; Jasa</a>
           <a href="blud.html#divisi">Divisi</a>
-          <a href="#" data-soon>MOU Industri</a>
-          <a href="#" data-soon>Berita Tefa</a>
+          <a href="berita.html?k=mou">MOU Industri</a>
+          <a href="berita.html?k=tefa">Berita Tefa</a>
         </div>
       </div>
       <div class="nav-item">
-        <a href="${home("#prestasi")}" class="nav-link nav-link--parent ${active === "prestasi" ? "is-active" : ""}">Prestasi ${caret}</a>
+        <a href="prestasi.html" class="nav-link nav-link--parent ${active === "prestasi" ? "is-active" : ""}">Prestasi ${caret}</a>
         <div class="nav-drop">
-          <a href="${home("#prestasi")}">Prestasi Sekolah</a>
-          <a href="${home("#alumni")}">Cerita Alumni</a>
-          <a href="#" data-soon>Guru Menulis</a>
-          <a href="#" data-soon>Siswa Menulis</a>
+          <a href="prestasi.html">Prestasi Sekolah</a>
+          <a href="prestasi.html#alumni">Cerita Alumni</a>
+          <a href="berita.html?k=guru-menulis">Guru Menulis</a>
+          <a href="berita.html?k=siswa-menulis">Siswa Menulis</a>
         </div>
       </div>
       <div class="nav-item">
@@ -96,25 +97,25 @@
         <a href="bkk.html" class="nav-link nav-link--parent ${active === "kerjasama" ? "is-active" : ""}">Kerjasama ${caret}</a>
         <div class="nav-drop">
           <a href="bkk.html">Mitra Industri</a>
-          <a href="#" data-soon>Perguruan Tinggi</a>
-          <a href="#" data-soon>Instansi Pemerintah</a>
-          <a href="#" data-soon>Swasta</a>
-          <a href="#" data-soon>Pelatihan</a>
-          <a href="#" data-soon>Studi Tiru</a>
-          <a href="#" data-soon>Narasumber</a>
+          <a href="berita.html?k=perguruan-tinggi">Perguruan Tinggi</a>
+          <a href="berita.html?k=instansi">Instansi Pemerintah</a>
+          <a href="berita.html?k=swasta">Swasta</a>
+          <a href="berita.html?k=pelatihan">Pelatihan</a>
+          <a href="berita.html?k=studi-tiru">Studi Tiru</a>
+          <a href="berita.html?k=narasumber">Narasumber</a>
         </div>
       </div>
       <a href="bkk.html" class="nav-link ${active === "bkk" ? "is-active" : ""}">BKK</a>
       <div class="nav-item">
         <a href="#" class="nav-link nav-link--parent" data-soon>Lainnya ${caret}</a>
         <div class="nav-drop nav-drop--right">
-          <a href="#" data-soon>LSP P1 — Uji Kompetensi</a>
+          <a href="berita.html?k=lsp-p1">LSP P1 — Uji Kompetensi</a>
           <a href="https://smkn10semarang.perpustakaan.co.id/" target="_blank" rel="noopener">Perpustakaan</a>
           <span class="nav-drop__label">SMK Pusat Keunggulan</span>
-          <a href="#" data-soon>Magang Guru</a>
-          <a href="#" data-soon>Magang Jepang</a>
-          <a href="#" data-soon>Praktisi Mengajar</a>
-          <a href="#" data-soon>Workshop</a>
+          <a href="berita.html?k=magang-guru">Magang Guru</a>
+          <a href="berita.html?k=magang-jepang">Magang Jepang</a>
+          <a href="berita.html?k=praktisi-mengajar">Praktisi Mengajar</a>
+          <a href="berita.html?k=workshop">Workshop</a>
         </div>
       </div>
       <a href="spmb.html" class="btn btn--acc btn--sm navbar__cta">Daftar SPMB</a>

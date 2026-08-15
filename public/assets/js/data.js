@@ -67,7 +67,7 @@
       el.innerHTML = rows.slice(0, parseInt(el.dataset.limit || "3", 10)).map((r) => {
         const d = new Date(r.tanggal + "T00:00:00");
         return `
-        <a href="#" class="anno reveal is-in" data-soon title="Halaman segera hadir">
+        <a href="berita.html?k=pengumuman" class="anno reveal is-in">
           <span class="anno__date"><strong>${String(d.getDate()).padStart(2, "0")}</strong><small>${bulanID[d.getMonth()]} ${d.getFullYear()}</small></span>
           <span class="anno__body"><strong>${esc(r.judul)}</strong><small>${esc(r.isi)}</small></span>
           ${arrowSvg}
