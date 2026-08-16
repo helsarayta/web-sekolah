@@ -73,6 +73,8 @@
         <div class="nav-drop">
           <a href="blud.html">Produk &amp; Jasa</a>
           <a href="blud.html#divisi">Divisi</a>
+          <a href="blud.html#analisis-potensi">Analisis Potensi</a>
+          <a href="blud.html#struktur-tefa">Struktur Organisasi Tefa</a>
           <a href="berita.html?k=mou">MOU Industri</a>
           <a href="berita.html?k=tefa">Berita Tefa</a>
         </div>
@@ -84,6 +86,8 @@
           <a href="prestasi.html#alumni">Cerita Alumni</a>
           <a href="berita.html?k=guru-menulis">Guru Menulis</a>
           <a href="berita.html?k=siswa-menulis">Siswa Menulis</a>
+          <a href="berita.html?k=catatan-ceo">Catatan CEO</a>
+          <a href="berita.html?k=kultum-ramadhan">Kultum Ramadhan</a>
         </div>
       </div>
       <div class="nav-item">
