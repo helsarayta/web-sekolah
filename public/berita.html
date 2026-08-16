@@ -122,9 +122,10 @@
       }
       list.innerHTML = rows.map((r) => {
         const d = new Date(r.tanggal + "T00:00:00");
-        const href = r.url && r.url !== "#" ? r.url : info.resmi;
+        const internal = !!r.slug;
+        const href = internal ? ("artikel.html?id=" + r.slug) : (r.url && r.url !== "#" ? r.url : info.resmi);
         return `
-        <a href="${esc(href)}" target="_blank" rel="noopener" class="anno">
+        <a href="${esc(href)}"${internal ? "" : " target=\"_blank\" rel=\"noopener\""} class="anno">
           <span class="anno__date"><strong>${String(d.getDate()).padStart(2, "0")}</strong><small>${bulan[d.getMonth()]} ${d.getFullYear()}</small></span>
           <span class="anno__body"><strong>${esc(r.judul)}</strong><small>${esc(r.ringkasan || "")}</small></span>
           <svg class="ic anno__arrow" aria-hidden="true"><use href="#i-arrow"/></svg>

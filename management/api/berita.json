@@ -1,87 +1,155 @@
 [
   {
-    "_catatan": "Artikel RIIL dari situs resmi — url menunjuk ke artikel asli agar tidak ada informasi lama yang hilang",
+    "_catatan": "Artikel dimigrasi dari situs resmi lama. Field 'isi' = paragraf lengkap; 'sumber' = artikel asli untuk atribusi",
+    "slug": "prestasi-dua-siswa-nasional-upacara",
     "kategori": "berita",
     "judul": "SMKN 10 Semarang Umumkan Prestasi Dua Siswa Tingkat Nasional pada Upacara Bendera Hari Senin",
     "tanggal": "2026-07-27",
-    "ringkasan": "Prestasi siswa tingkat nasional diumumkan langsung pada upacara bendera hari Senin.",
-    "url": "https://smk10semarang.sch.id/smkn-10-semarang-umumkan-prestasi-dua-siswa-tingkat-nasional-pada-upacara-bendera-hari-senin/"
+    "ringkasan": "Olivia Meiranda (NKN) juara 1 menulis cerpen nasional dan Christian Felix Juron (TSM) juara 1 taekwondo Gubernur Jateng Cup diumumkan pada upacara bendera.",
+    "isi": [
+      "Semarang – SMKN 10 Semarang kembali menorehkan prestasi membanggakan melalui dua peserta didiknya yang berhasil meraih juara pada ajang kompetisi tingkat nasional. Prestasi tersebut diumumkan kepada seluruh warga sekolah dalam pelaksanaan Upacara Bendera Hari Senin yang berlangsung di lapangan utama SMKN 10 Semarang.",
+      "Dua siswa yang mendapat apresiasi tersebut adalah Olivia Meiranda, siswi kelas XI Nautika Kapal Niaga (NKN), dan Christian Felix Juron, siswa kelas X TSM 1.",
+      "Olivia Meiranda berhasil meraih Juara 1 Festival Penulis Nasional Cipta Karya Sastra Cerpen Tingkat Nasional yang diselenggarakan oleh Penerbit Prasasti Media. Cerpen karya Olivia berhasil terpilih sebagai karya terbaik dan diterbitkan dalam buku antologi berjudul Sajak Prasasti. Prestasi ini menjadi bukti bahwa peserta didik SMKN 10 Semarang mampu menunjukkan kemampuan di bidang literasi dan kepenulisan hingga tingkat nasional.",
+      "Sementara itu, Christian Felix Juron berhasil meraih Juara 1 Kyorugi Junior Under 73 Putra pada ajang Gubernur Jateng Cup 2026 Taekwondo Open Tournament Tingkat Nasional. Melalui latihan yang disiplin, kerja keras, dan semangat juang yang tinggi, Christian berhasil mengungguli para atlet dari berbagai daerah di Indonesia dan mengharumkan nama SMKN 10 Semarang di bidang olahraga.",
+      "Pada kesempatan tersebut, kedua siswa dipanggil ke depan barisan peserta upacara untuk diperkenalkan kepada seluruh warga sekolah atas prestasi yang telah mereka raih. Momen ini menjadi bentuk penghargaan moral sekaligus motivasi bagi seluruh peserta didik untuk terus mengembangkan potensi, berani berkarya, dan berprestasi sesuai bidang yang diminati.",
+      "Prestasi ini menjadi bukti bahwa semangat, kerja keras, dan ketekunan mampu mengantarkan peserta didik SMKN 10 Semarang meraih prestasi di tingkat nasional. Semoga semakin banyak siswa yang terdorong untuk berkarya, berkompetisi, dan mengharumkan nama sekolah di berbagai bidang."
+    ],
+    "sumber": "https://smk10semarang.sch.id/smkn-10-semarang-umumkan-prestasi-dua-siswa-tingkat-nasional-pada-upacara-bendera-hari-senin/"
   },
   {
+    "slug": "siswa-borong-prestasi-nasional",
     "kategori": "berita",
     "judul": "Bangga! Siswa SMKN 10 Semarang Borong Prestasi Nasional, Kepala Sekolah Serahkan Penghargaan",
     "tanggal": "2026-07-20",
-    "ringkasan": "Kepala sekolah menyerahkan penghargaan kepada para siswa peraih prestasi tingkat nasional.",
-    "url": "https://smk10semarang.sch.id/bangga-siswa-smkn-10-semarang-borong-prestasi-nasional-kepala-sekolah-serahkan-penghargaan/"
+    "ringkasan": "Enam siswa peraih juara PUtechnovation, Digifest, dan Environmental Health Competition 2026 menerima penghargaan dari kepala sekolah.",
+    "isi": [
+      "Semarang – SMKN 10 Semarang memberikan penghargaan kepada para siswa berprestasi pada upacara bendera Senin, 20 Juli 2026. Kepala Sekolah Albasori, S.Pd. menyampaikan apresiasi atas dedikasi peserta didik yang telah membawa nama baik SMKN 10 Semarang di berbagai ajang tingkat nasional.",
+      "Pada ajang PUtechnovation 2026, Arshavin Bintang Wibowo dan Maya Noviga Sari meraih Juara 2 Peneliti Belia Bidang Ekonomi.",
+      "Di ajang Digifest 2026, Arshavin Bintang Wibowo dan Anisah Putri Salma memenangkan Juara 1 System Innovation Idea sekaligus memperoleh beasiswa kuliah dan tes masuk gratis.",
+      "Sementara pada Environmental Health Competition 2026, Suci Nugraheni dan Muhammad Cahyo Pamungkas meraih Juara 3 Lomba Esai Tingkat Nasional.",
+      "Kepala sekolah berharap budaya berprestasi terus tumbuh di lingkungan sekolah dan semakin banyak siswa termotivasi berinovasi di berbagai kompetisi, dari tingkat regional hingga internasional."
+    ],
+    "sumber": "https://smk10semarang.sch.id/bangga-siswa-smkn-10-semarang-borong-prestasi-nasional-kepala-sekolah-serahkan-penghargaan/"
   },
   {
+    "slug": "guru-prestasi-fabrikasi-logam-presisi",
     "kategori": "berita",
     "judul": "Guru SMKN 10 Semarang Torehkan Prestasi pada Pelatihan Fabrikasi Logam Presisi Berbasis Proyek",
     "tanggal": "2026-06-29",
-    "ringkasan": "Guru produktif meraih capaian pada pelatihan fabrikasi logam presisi berbasis proyek.",
-    "url": "https://smk10semarang.sch.id/guru-smkn-10-semarang-torehkan-prestasi-pada-pelatihan-fabrikasi-logam-presisi-berbasis-proyek/"
+    "ringkasan": "Mohammad Yunan Setyawan, S.Pd. menjadi Peserta Terbaik I pelatihan BBPPMPV Bidang Mesin dan Teknik Industri.",
+    "isi": [
+      "Semarang – Pendidik dari SMKN 10 Semarang berhasil menorehkan prestasi pada kegiatan Peningkatan Kompetensi Pendidik dan Tenaga Kependidikan Vokasi berupa pelatihan Fabrikasi Logam Presisi Berbasis Proyek yang diselenggarakan oleh Balai Besar Pengembangan Penjaminan Mutu Pendidikan Vokasi (BBPPMPV) Bidang Mesin dan Teknik Industri, di bawah naungan Kementerian Pendidikan Dasar dan Menengah.",
+      "Kegiatan berlangsung dari tanggal 3 hingga 20 Juni 2026 di BBPPMPV Bidang Mesin dan Teknik Industri, dengan peserta dari berbagai daerah di seluruh Indonesia. Dua pendidik SMKN 10 Semarang mengikuti program tersebut: Mohammad Yunan Setyawan, S.Pd. dan Mita Pramesti, ST.",
+      "Pada acara penutupan tanggal 21 Juni 2026, Mohammad Yunan Setyawan, S.Pd. berhasil meraih penghargaan sebagai Peserta Terbaik I, sementara Mita Pramesti, ST memperoleh predikat Memuaskan berdasarkan capaian kompetensi selama pelatihan.",
+      "Program pelatihan ini bertujuan meningkatkan kompetensi pendidik dalam menerapkan pembelajaran berbasis proyek, khususnya pada bidang fabrikasi logam presisi sesuai perkembangan teknologi dan kebutuhan dunia usaha serta industri.",
+      "Pengalaman yang diperoleh diharapkan dapat diterapkan dalam proses pembelajaran untuk meningkatkan kualitas lulusan yang kompeten dan siap menghadapi tantangan dunia kerja, sekaligus menjadi motivasi bagi seluruh guru untuk terus mengembangkan kompetensi profesionalnya."
+    ],
+    "sumber": "https://smk10semarang.sch.id/guru-smkn-10-semarang-torehkan-prestasi-pada-pelatihan-fabrikasi-logam-presisi-berbasis-proyek/"
   },
   {
+    "slug": "anugerah-sekolah-berbudaya-sehat-2026",
     "kategori": "berita",
     "judul": "Guru SMKN 10 Semarang Raih Penghargaan pada Anugerah Sekolah Berbudaya Sehat Tahun 2026",
     "tanggal": "2026-06-29",
-    "ringkasan": "Penghargaan diraih pada ajang Anugerah Sekolah Berbudaya Sehat 2026.",
-    "url": "https://smk10semarang.sch.id/guru-smkn-10-semarang-raih-penghargaan-pada-anugerah-sekolah-berbudaya-sehat-tahun-2026/"
+    "ringkasan": "Dua guru menerima penghargaan Guru Literasi Sains Berkelanjutan dan Guru Pengelola Kelas Berbudaya Pendidikan Karakter di Universitas Ngudi Waluyo.",
+    "isi": [
+      "Semarang – Prestasi membanggakan kembali diraih oleh guru SMKN 10 Semarang dalam ajang Anugerah Sekolah Berbudaya Sehat Tahun 2026 yang diselenggarakan pada Minggu, 28 Juni 2026, bertempat di Aula Universitas Ngudi Waluyo.",
+      "Kegiatan yang dipimpin oleh Rektor Universitas Ngudi Waluyo ini merupakan bentuk apresiasi kepada kepala sekolah dan guru yang telah berhasil menerapkan budaya sehat di lingkungan sekolah maupun dalam proses pembelajaran di kelas.",
+      "Pada kesempatan tersebut, SMKN 10 Semarang berhasil meraih dua penghargaan. Penghargaan Guru Literasi Sains Berkelanjutan diberikan kepada Hikma Nurul Izza, S.Pd, selaku guru Projek IPAS, atas dedikasinya dalam mengembangkan literasi sains yang berkelanjutan. Sementara itu, Andhika Wildan Krisna Murti, M.Pd, guru Matematika, memperoleh penghargaan Guru Pengelola Kelas Berbudaya Pendidikan Karakter.",
+      "Penghargaan ini menjadi bukti nyata komitmen para pendidik SMKN 10 Semarang dalam menghadirkan pembelajaran yang tidak hanya berorientasi pada capaian akademik, tetapi juga menanamkan nilai-nilai karakter dan budaya positif kepada peserta didik.",
+      "Melalui penghargaan ini, diharapkan seluruh guru dapat terus menjaga konsistensi dalam menerapkan budaya positif di sekolah — bukan hanya saat mengikuti ajang penilaian, tetapi sebagai kebiasaan berkelanjutan dalam membentuk karakter siswa yang unggul dan berakhlak mulia."
+    ],
+    "sumber": "https://smk10semarang.sch.id/guru-smkn-10-semarang-raih-penghargaan-pada-anugerah-sekolah-berbudaya-sehat-tahun-2026/"
   },
   {
+    "slug": "kemitraan-empat-galangan-kapal-tegal",
     "kategori": "berita",
     "judul": "SMKN 10 Semarang Perkuat Kemitraan dengan Empat Industri Galangan Kapal di Tegal",
     "tanggal": "2026-06-05",
-    "ringkasan": "Kemitraan jurusan perkapalan diperluas dengan empat industri galangan kapal di Tegal.",
-    "url": "https://smk10semarang.sch.id/16986-2/"
+    "ringkasan": "Jurusan Konstruksi Kapal Baja menandatangani MoU dengan empat galangan kapal di Tegal: PKL, penyelarasan kurikulum, guru tamu, sertifikasi, hingga rekrutmen lulusan.",
+    "isi": [
+      "SMKN 10 Semarang melalui Jurusan Konstruksi Kapal Baja melaksanakan kegiatan monitoring dan penandatanganan Nota Kesepahaman dengan sejumlah industri galangan kapal di Kota Tegal pada Selasa, 2 Juni 2026, bersama Tim Hubungan Masyarakat sebagai bentuk penguatan sinergi antara dunia pendidikan dan dunia industri.",
+      "Kegiatan dihadiri tiga guru Jurusan Konstruksi Kapal Baja — Septiyo Ariyanto, S.Pd., Dian Primayanto, S.Pd., dan Andi Tri Cahyono, S.Pd. — beserta Tim Wakil Kepala Sekolah Bidang Humas yang terdiri dari Mohammad Yunan Setyawan, S.Pd. dan Aris Guntoro, S.Sn.",
+      "Rombongan melakukan monitoring dan evaluasi pelaksanaan kerja sama yang telah berjalan, sekaligus mempererat hubungan kemitraan antara sekolah dengan dunia usaha dan dunia industri pada sektor konstruksi kapal baja.",
+      "Sebagai wujud komitmen pengembangan pendidikan vokasi, dilaksanakan penandatanganan Nota Kesepahaman dengan empat perusahaan galangan kapal: PT. DOK Abadi Shipyard, PT. Citra Bahari Shipyard 1, PT. Citra Bahari Shipyard 2, dan PT. Sanur Marindo Shipyard.",
+      "Kerja sama ini mencakup Praktik Kerja Lapangan (PKL), penyelarasan kurikulum berbasis kebutuhan industri, guru tamu dari praktisi industri, sertifikasi kompetensi, hingga peluang rekrutmen bagi lulusan SMKN 10 Semarang.",
+      "Tim sekolah juga mengidentifikasi kebutuhan kompetensi tenaga kerja industri galangan kapal saat ini, yang akan digunakan dalam sinkronisasi kurikulum dan pengembangan pembelajaran di Jurusan Konstruksi Kapal Baja agar semakin relevan dengan dunia kerja.",
+      "Melalui kegiatan ini, SMKN 10 Semarang menunjukkan komitmennya membangun kemitraan strategis dengan dunia industri guna menghasilkan lulusan yang kompeten, profesional, dan siap bersaing di dunia kerja."
+    ],
+    "sumber": "https://smk10semarang.sch.id/16986-2/"
   },
   {
+    "slug": "pendaftar-melonjak-spmb-2025",
     "kategori": "ppdb",
     "judul": "Jumlah Pendaftar Melonjak, SMKN 10 Semarang Jadi Primadona Pilihan Murid Baru",
     "tanggal": "2025-06-27",
     "ringkasan": "Animo pendaftar SPMB melonjak pada penerimaan murid baru 2025/2026.",
-    "url": "https://smk10semarang.sch.id/category/ppdb/"
+    "isi": [
+      "Animo calon murid baru terhadap SMKN 10 Semarang melonjak pada Sistem Penerimaan Murid Baru (SPMB) tahun ajaran 2025/2026. Sekolah dengan kuota 540 murid baru ini menjadi salah satu SMK negeri favorit di Kota Semarang.",
+      "Kenaikan jumlah pendaftar sejalan dengan meningkatnya kepercayaan masyarakat terhadap kualitas pendidikan vokasi SMKN 10 Semarang — dari jurusan rumpun maritim yang menjadi ciri khas, jaminan penyaluran kerja melalui BKK, hingga berbagai prestasi sekolah di tingkat provinsi dan nasional."
+    ],
+    "sumber": "https://smk10semarang.sch.id/category/ppdb/"
   },
   {
+    "slug": "spmb-2025-kuota-540",
     "kategori": "ppdb",
-    "judul": "Pendaftaran SPMB Dibuka Besok, SMKN 10 Semarang Siap Terima 540 Siswa Baru",
+    "judul": "Pendaftaran SPMB Dibuka, SMKN 10 Semarang Siap Terima 540 Siswa Baru",
     "tanggal": "2025-06-13",
-    "ringkasan": "Sekolah menyiapkan kuota 540 murid baru pada SPMB 2025/2026.",
-    "url": "https://smk10semarang.sch.id/category/ppdb/"
+    "ringkasan": "Sekolah menyiapkan kuota 540 murid baru pada SPMB 2025/2026 melalui sistem Dinas Pendidikan Jawa Tengah.",
+    "isi": [
+      "SMKN 10 Semarang membuka pendaftaran murid baru tahun ajaran 2025/2026 melalui Sistem Penerimaan Murid Baru (SPMB) yang dikelola Dinas Pendidikan Provinsi Jawa Tengah, dengan total daya tampung 540 murid baru.",
+      "Calon murid dapat memilih dari 9 kompetensi keahlian: Nautika Kapal Niaga, Konstruksi Kapal Baja, Teknik Pemesinan Kapal, Teknik Pengelasan dan Fabrikasi Logam, Teknik Kendaraan Ringan, Teknik Sepeda Motor, Perawatan Bodi Otomotif, Rekayasa Perangkat Lunak dan Gim, serta Manajemen Logistik.",
+      "Seluruh proses pendaftaran tidak dipungut biaya. Informasi alur, syarat, dan jadwal lengkap tersedia di halaman SPMB website ini, atau melalui WhatsApp sekolah di +62 812-2690-7008."
+    ],
+    "sumber": "https://smk10semarang.sch.id/category/ppdb/"
   },
   {
+    "slug": "lsp-p1-perpanjangan-lisensi-bnsp",
     "kategori": "lsp-p1",
     "judul": "LSP P1 SMKN 10 Semarang Raih Perpanjangan Lisensi dari BNSP",
     "tanggal": "2024-03-02",
     "ringkasan": "Lembaga Sertifikasi Profesi sekolah kembali mendapat lisensi resmi BNSP.",
-    "url": "https://smk10semarang.sch.id/lsp-p1-smkn-10-semarang-raih-perpanjangan-lisensi-dari-bnsp/"
+    "isi": [
+      "Lembaga Sertifikasi Profesi Pihak Pertama (LSP P1) SMKN 10 Semarang berhasil meraih perpanjangan lisensi dari Badan Nasional Sertifikasi Profesi (BNSP).",
+      "LSP P1 adalah lembaga pelaksana kegiatan sertifikasi kompetensi kerja yang mendapatkan lisensi dari BNSP. Dengan lisensi ini, SMKN 10 Semarang dapat menyelenggarakan uji kompetensi dan menerbitkan sertifikat kompetensi yang diakui secara nasional bagi peserta didiknya.",
+      "Perpanjangan lisensi ini menjaga kualitas pendidikan vokasi sekolah: setiap lulusan dapat mengantongi sertifikat kompetensi resmi sebagai bekal memasuki dunia kerja."
+    ],
+    "sumber": "https://smk10semarang.sch.id/lsp-p1-smkn-10-semarang-raih-perpanjangan-lisensi-dari-bnsp/"
   },
   {
-    "kategori": "lsp-p1",
-    "judul": "Perpanjangan Lisensi LSP P1 SMKN 10 Semarang: Menjaga Kualitas Pendidikan Vokasi",
-    "tanggal": "2023-10-31",
-    "ringkasan": "Uji kompetensi siswa dijamin lembaga sertifikasi berlisensi BNSP.",
-    "url": "https://smk10semarang.sch.id/perpanjangan-lisensi-lsp-p1-smkn-10-semarang-menjaga-kualitas-pendidikan-vokasi/"
-  },
-  {
+    "slug": "kerjasama-tuk-smk-hidayah",
     "kategori": "lsp-p1",
     "judul": "Kerjasama TUK SMK Hidayah dengan SMKN 10 Semarang",
     "tanggal": "2023-01-07",
     "ringkasan": "SMKN 10 menjadi Tempat Uji Kompetensi bagi sekolah lain.",
-    "url": "https://smk10semarang.sch.id/kerjasama-tuk-smk-hidayah-dengan-smkn-10-semarang/"
+    "isi": [
+      "SMKN 10 Semarang menjalin kerja sama dengan SMK Hidayah sebagai Tempat Uji Kompetensi (TUK). Melalui kerja sama ini, siswa SMK Hidayah dapat mengikuti uji kompetensi di fasilitas SMKN 10 Semarang yang telah terlisensi BNSP.",
+      "Kerja sama ini menegaskan posisi LSP P1 SMKN 10 Semarang sebagai rujukan uji kompetensi pendidikan vokasi di Kota Semarang dan sekitarnya."
+    ],
+    "sumber": "https://smk10semarang.sch.id/kerjasama-tuk-smk-hidayah-dengan-smkn-10-semarang/"
   },
   {
+    "slug": "pelatihan-bk-online-48-sekolah",
     "kategori": "tefa",
     "judul": "Pelatihan Aplikasi BK Online untuk 48 Sekolah",
     "tanggal": "2022-04-01",
     "ringkasan": "Produk divisi Software Teaching Factory dilatihkan ke 48 sekolah.",
-    "url": "https://smk10semarang.sch.id/hasil/"
+    "isi": [
+      "Aplikasi BK Online — produk divisi Software Teaching Factory SMKN 10 Semarang — telah dilatihkan kepada 48 sekolah dari berbagai daerah.",
+      "Aplikasi ini membantu guru bimbingan konseling mengelola layanan BK secara digital. Keberhasilan adopsi oleh puluhan sekolah membuktikan kualitas karya siswa dan guru SMKN 10 Semarang di bidang pengembangan perangkat lunak."
+    ],
+    "sumber": "https://smk10semarang.sch.id/hasil/"
   },
   {
+    "slug": "evaluasi-digital-tanpa-kuota",
     "kategori": "tefa",
     "judul": "Evaluasi Digital Tanpa Kuota Internet Dipakai 18 Sekolah",
     "tanggal": "2022-03-31",
-    "ringkasan": "Sistem ujian digital hemat kuota karya siswa digunakan 18 sekolah.",
-    "url": "https://smk10semarang.sch.id/hasil/"
+    "ringkasan": "Sistem ujian digital hemat kuota karya sekolah digunakan 18 sekolah.",
+    "isi": [
+      "Sistem Evaluasi Digital Tanpa Kuota Internet karya SMKN 10 Semarang telah digunakan oleh 18 sekolah. Sistem ini memungkinkan pelaksanaan ulangan dan ujian digital tanpa membebani kuota internet siswa.",
+      "Inovasi ini lahir dari program digitalisasi sekolah dan menjadi salah satu produk unggulan Teaching Factory yang paling banyak diadopsi sekolah lain."
+    ],
+    "sumber": "https://smk10semarang.sch.id/hasil/"
   }
 ]
