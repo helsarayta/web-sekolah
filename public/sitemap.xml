@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Ganti domain dengan domain final saat deploy -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://web-sekolah.vercel.app/</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/spmb.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/jurusan.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/blud.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/bkk.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/berita.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/profil.html</loc></url>
-  <url><loc>https://web-sekolah.vercel.app/prestasi.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/spmb.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/jurusan.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/blud.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/bkk.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/berita.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/profil.html</loc></url>
+  <url><loc>https://helsarayta.github.io/web-sekolah/prestasi.html</loc></url>
 </urlset>
